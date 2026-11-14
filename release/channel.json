@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "minLauncherVersion": "0.1.0",
+  "clientSteamBuildId": "26621909",
+  "serverSteamBuildId": "26621903",
+  "experimental": true,
+  "files": [
+    {
+      "name": "pakchunk950-SCUMLabChairPrototype_P.pak",
+      "bytes": 30094,
+      "sha256": "c19b2f99544e27375c8a8cea930050914b7e941513a993c3a9f211a26eb3011b"
+    }
+  ],
+  "registryDelta": {
+    "name": "chair-registry-delta.json",
+    "bytes": 10685,
+    "sha256": "f83347df66f0c921c36639ced2b7091a82e40d02e7dff247330e43c78610ac48"
+  }
+}
