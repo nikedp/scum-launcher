@@ -17,7 +17,7 @@ public sealed class InstalledState { public string version,steamBuildId;public D
 public sealed class Change { public string name,oldHash,newHash,temporary;public bool oldExists,newExists; }
 public sealed class Journal { public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Version="0.1.0",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Version="0.1.1",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -43,8 +43,15 @@ public sealed class GitHubSource:IReleaseSource {
 }
 public sealed class GameInstall {
     public string Root,Paks,Exe,Manifest,BuildId;public bool Server;
+    internal static string NormalizeRoot(string root){
+        Data.Require(!String.IsNullOrWhiteSpace(root),"Выберите папку SCUM кнопкой «Выбрать…».");root=root.Trim();
+        if(root.Length>=2&&root[0]=='\"'&&root[root.Length-1]=='\"')root=root.Substring(1,root.Length-2).Trim();
+        Data.Require(!String.IsNullOrWhiteSpace(root),"Выберите папку SCUM кнопкой «Выбрать…».");
+        Data.Require((Regex.IsMatch(root,@"^[A-Za-z]:[\\/]")||root.StartsWith(@"\\",StringComparison.Ordinal))&&root.IndexOfAny(new[]{'\0','\r','\n','*','?','\"','<','>','|'})<0,"Укажите полный путь к папке SCUM или выберите её кнопкой «Выбрать…».");
+        try{return Path.GetFullPath(root);}catch(ArgumentException){throw new InvalidDataException("Не удалось прочитать путь. Выберите папку SCUM кнопкой «Выбрать…».");}catch(NotSupportedException){throw new InvalidDataException("Этот путь не поддерживается. Выберите папку SCUM кнопкой «Выбрать…».");}catch(PathTooLongException){throw new InvalidDataException("Путь слишком длинный. Выберите корневую папку SCUM.");}
+    }
     public static GameInstall Open(string root){
-        root=Path.GetFullPath(root);string paks=Path.Combine(root,"SCUM","Content","Paks"),client=Path.Combine(root,"SCUM","Binaries","Win64","SCUM.exe"),server=Path.Combine(root,"SCUM","Binaries","Win64","SCUMServer.exe");
+        root=NormalizeRoot(root);string paks=Path.Combine(root,"SCUM","Content","Paks"),client=Path.Combine(root,"SCUM","Binaries","Win64","SCUM.exe"),server=Path.Combine(root,"SCUM","Binaries","Win64","SCUMServer.exe");
         Data.Require(Directory.Exists(paks)&&(File.Exists(client)||File.Exists(server)),"Выбери папку SCUM, внутри которой находится SCUM\\Content\\Paks.");
         GameInstall g=new GameInstall{Root=root,Paks=paks,Server=!File.Exists(client),Exe=File.Exists(client)?client:server};string app=g.Server?"3792580":"513710";
         List<string> candidates=new List<string>{Path.Combine(root,"steamapps","appmanifest_"+app+".acf")};DirectoryInfo parent=Directory.GetParent(root);if(parent!=null&&parent.Parent!=null)candidates.Add(Path.Combine(parent.Parent.FullName,"appmanifest_"+app+".acf"));
