@@ -17,7 +17,7 @@ public sealed class InstalledState { public string version,steamBuildId;public D
 public sealed class Change { public string name,oldHash,newHash,temporary;public bool oldExists,newExists; }
 public sealed class Journal { public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Version="0.1.3",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Version="0.1.4",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -58,11 +58,7 @@ public sealed class GameInstall {
         foreach(string file in candidates)if(File.Exists(file)){g.Manifest=file;break;}Data.Require(g.Manifest!=null,"Не найден Steam appmanifest установленной игры.");
         string manifestText=File.ReadAllText(g.Manifest);g.BuildId=Regex.Match(manifestText,"\"buildid\"\\s+\"([0-9]+)\"").Groups[1].Value;Data.Require(g.BuildId.Length>0,"Steam Build ID не найден.");Data.Require(Regex.Match(manifestText,"\"StateFlags\"\\s+\"([0-9]+)\"").Groups[1].Value=="4","Steam ещё не завершил установку/обновление SCUM.");return g;
     }
-    public static string Find(){
-        List<string> libs=new List<string>();using(var k=Microsoft.Win32.Registry.CurrentUser.OpenSubKey("Software\\Valve\\Steam")){if(k!=null&&k.GetValue("SteamPath")!=null)libs.Add(k.GetValue("SteamPath").ToString());}libs.Add(@"C:\Program Files (x86)\Steam");
-        foreach(string lib in libs.ToArray()){string vdf=Path.Combine(lib,"steamapps","libraryfolders.vdf");if(File.Exists(vdf))foreach(Match m in Regex.Matches(File.ReadAllText(vdf),"\"path\"\\s+\"([^\"]+)\""))libs.Add(m.Groups[1].Value.Replace("\\\\","\\"));}
-        foreach(string lib in libs){string manifest=Path.Combine(lib,"steamapps","appmanifest_513710.acf");if(File.Exists(manifest)){string dir=Regex.Match(File.ReadAllText(manifest),"\"installdir\"\\s+\"([^\"]+)\"").Groups[1].Value;string root=Path.Combine(lib,"steamapps","common",dir);if(Directory.Exists(root))return root;}}return "";
-    }
+    public static string Find(){string[] paths=GameDiscovery.Find(false).paths;return paths.Length==1?paths[0]:"";}
     public static void RequireStopped(){foreach(string name in new[]{"SCUM","SCUMServer","SCUM-Win64-Shipping","SCUMServer-Win64-Shipping"}){Process[] processes=Process.GetProcessesByName(name);try{Data.Require(processes.Length==0,"Закрой SCUM и сервер перед изменением файлов.");}finally{foreach(Process p in processes)p.Dispose();}}}
 }
 public sealed class UpdateService {
