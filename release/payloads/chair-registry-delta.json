@@ -1,0 +1,365 @@
+{
+  "status": "own-registry-delta-requires-target-build-baseline",
+  "namespace": "SCUMLab",
+  "resourceRegistrySha256": "38990f190a7d6c65461607753e82dba4c5dfc5a933a9426a019ccb1080ee92ad",
+  "entries": [
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabChair01.CR_LabChair01",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabChair01"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabChair01",
+      "assetName": "CR_LabChair01",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabChair01.BP_LabChair01",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabChair01"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabChair01.BP_LabChair01_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabChair01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabChair01",
+      "assetName": "BP_LabChair01",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabChair01.BP_LabChair01_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabChair01"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabChair01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabChair01",
+      "assetName": "BP_LabChair01_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/Chair01/ICO_LabChair01.ICO_LabChair01",
+      "packagePath": "/Game/SCUMLab/Furniture/Chair01",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/Chair01/ICO_LabChair01",
+      "assetName": "ICO_LabChair01",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_Default"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "512x512"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/Chair01/M_LabChair01.M_LabChair01",
+      "packagePath": "/Game/SCUMLab/Furniture/Chair01",
+      "assetClass": "Material",
+      "packageName": "/Game/SCUMLab/Furniture/Chair01/M_LabChair01",
+      "assetName": "M_LabChair01",
+      "tags": {
+        "ShadingModel": {
+          "storageType": "AnsiString",
+          "value": "MSM_DefaultLit"
+        },
+        "BlendMode": {
+          "storageType": "AnsiString",
+          "value": "BLEND_Opaque"
+        },
+        "TranslucencyLightingMode": {
+          "storageType": "AnsiString",
+          "value": "TLM_VolumetricNonDirectional"
+        },
+        "ShadingModels": {
+          "storageType": "AnsiString",
+          "value": "(ShadingModelField=2)"
+        },
+        "MaterialDecalResponse": {
+          "storageType": "AnsiString",
+          "value": "MDR_ColorNormalRoughness"
+        },
+        "MaterialDomain": {
+          "storageType": "AnsiString",
+          "value": "MD_Surface"
+        },
+        "HasSceneColor": {
+          "storageType": "AnsiString",
+          "value": "False"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/Chair01/SM_LabChair01.SM_LabChair01",
+      "packagePath": "/Game/SCUMLab/Furniture/Chair01",
+      "assetClass": "StaticMesh",
+      "packageName": "/Game/SCUMLab/Furniture/Chair01/SM_LabChair01",
+      "assetName": "SM_LabChair01",
+      "tags": {
+        "Vertices": {
+          "storageType": "AnsiString",
+          "value": "168"
+        },
+        "Materials": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "Triangles": {
+          "storageType": "AnsiString",
+          "value": "84"
+        },
+        "MinLOD": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "None"
+        },
+        "UVChannels": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "ApproxSize": {
+          "storageType": "AnsiString",
+          "value": "48x48x90"
+        },
+        "CollisionPrims": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "LODs": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "SectionsWithCollision": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "DefaultCollision": {
+          "storageType": "AnsiString",
+          "value": "BlockAll"
+        },
+        "CollisionComplexity": {
+          "storageType": "AnsiString",
+          "value": "CTF_UseComplexAsSimple"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/Chair01/T_LabChair01.T_LabChair01",
+      "packagePath": "/Game/SCUMLab/Furniture/Chair01",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/Chair01/T_LabChair01",
+      "assetName": "T_LabChair01",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_Default"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "64x64"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_World"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    }
+  ],
+  "requirements": [
+    "Merge separately with exact server and client registry baselines",
+    "Do not deploy a registry derived only from our UE authoring project",
+    "Verify recipe discovery in SCUM"
+  ]
+}

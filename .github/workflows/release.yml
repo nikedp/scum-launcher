@@ -1,0 +1,23 @@
+name: Build, test and release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: scum-launcher-release
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Build and transactional self-tests
+        shell: pwsh
+        run: ./build.ps1 -Test
+      - name: Package and publish a new release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: ./prepare-release.ps1 -Publish
