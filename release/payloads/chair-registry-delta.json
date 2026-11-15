@@ -7803,6 +7803,594 @@
       "packagePath": "/Game/SCUMLab/Vehicles/MH6",
       "chunks": [],
       "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Chassis.BPC_SCUMLab_MH6_Chassis",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Chassis.BPC_SCUMLab_MH6_Chassis_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Chassis.BPC_Kinglet_Duster_Chassis_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_Chassis'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Chassis"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Chassis"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Chassis",
+      "assetName": "BPC_SCUMLab_MH6_Chassis",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Chassis.BPC_SCUMLab_MH6_Chassis_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Chassis.BPC_Kinglet_Duster_Chassis_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_Chassis'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Chassis"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Chassis"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Chassis",
+      "assetName": "BPC_SCUMLab_MH6_Chassis_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Legs_Front.BPC_SCUMLab_MH6_Legs_Front",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Legs_Front.BPC_SCUMLab_MH6_Legs_Front_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Legs_Front.BPC_Kinglet_Duster_Legs_Front_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_StaticPart'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Legs_Front"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Legs_Front"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Legs_Front",
+      "assetName": "BPC_SCUMLab_MH6_Legs_Front",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Legs_Front.BPC_SCUMLab_MH6_Legs_Front_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Legs_Front.BPC_Kinglet_Duster_Legs_Front_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_StaticPart'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Legs_Front"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Legs_Front"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Legs_Front",
+      "assetName": "BPC_SCUMLab_MH6_Legs_Front_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Leg_Back.BPC_SCUMLab_MH6_Leg_Back",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Leg_Back.BPC_SCUMLab_MH6_Leg_Back_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Leg_Back.BPC_Kinglet_Duster_Leg_Back_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_StaticPart'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Leg_Back"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Leg_Back"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Leg_Back",
+      "assetName": "BPC_SCUMLab_MH6_Leg_Back",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Leg_Back.BPC_SCUMLab_MH6_Leg_Back_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Leg_Back.BPC_Kinglet_Duster_Leg_Back_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_StaticPart'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Leg_Back"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Leg_Back"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Leg_Back",
+      "assetName": "BPC_SCUMLab_MH6_Leg_Back_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontLeft.BPC_SCUMLab_MH6_Wheel_FrontLeft",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontLeft.BPC_SCUMLab_MH6_Wheel_FrontLeft_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_FrontLeft.BPC_Kinglet_Duster_Wheel_FrontLeft_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontLeft"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontLeft"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontLeft",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_FrontLeft",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontLeft.BPC_SCUMLab_MH6_Wheel_FrontLeft_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_FrontLeft.BPC_Kinglet_Duster_Wheel_FrontLeft_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontLeft"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontLeft"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontLeft",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_FrontLeft_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontRight.BPC_SCUMLab_MH6_Wheel_FrontRight",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontRight.BPC_SCUMLab_MH6_Wheel_FrontRight_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_FrontRight.BPC_Kinglet_Duster_Wheel_FrontRight_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontRight"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontRight"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontRight",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_FrontRight",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontRight.BPC_SCUMLab_MH6_Wheel_FrontRight_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_FrontRight.BPC_Kinglet_Duster_Wheel_FrontRight_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontRight"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_FrontRight"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_FrontRight",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_FrontRight_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_Back.BPC_SCUMLab_MH6_Wheel_Back",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_Back.BPC_SCUMLab_MH6_Wheel_Back_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_Back.BPC_Kinglet_Duster_Wheel_Back_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_Back"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_Back"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_Back",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_Back",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_Back.BPC_SCUMLab_MH6_Wheel_Back_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Wheel_Back.BPC_Kinglet_Duster_Wheel_Back_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_DcxWheel'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Wheel_Back"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Wheel_Back"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Wheel_Back",
+      "assetName": "BPC_SCUMLab_MH6_Wheel_Back_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
     }
   ],
   "requirements": [
