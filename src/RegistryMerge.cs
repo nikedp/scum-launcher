@@ -15,7 +15,7 @@ public static class RegistryMerge {
     static void Copy(BinaryWriter w,byte[] b,long start,long end){Require(start>=0&&end>=start&&end<=b.Length,"Copy bounds");w.Write(b,(int)start,(int)(end-start));}
     static byte[] Bytes(Action<BinaryWriter> write){using(MemoryStream m=new MemoryStream()){using(BinaryWriter w=new BinaryWriter(m,Encoding.UTF8,true))write(w);return m.ToArray();}}
     public static byte[] Merge(byte[] source,RegistryDelta delta) {
-        Require(delta!=null&&delta.entries!=null&&delta.entries.Length>0&&delta.entries.Length<256,"Invalid registry delta");
+        Require(delta!=null&&delta.entries!=null&&delta.entries.Length>0&&delta.entries.Length<=4096,"Invalid registry delta");
         List<string> names=new List<string>();long hashes,headers,strings,storeStart,assetsStart,assetsEnd;uint magic;int[] counts=new int[11];long[] starts=new long[11],ends=new long[11];byte[] textPrefix=null;int assetCount;HashSet<string> existing=new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         using(BinaryReader r=new BinaryReader(new MemoryStream(source))){
             byte[] expected={0xe7,0x9e,0x7f,0x71,0x3a,0x49,0xb0,0xe9,0x32,0x91,0xb3,0x88,0x07,0x81,0x38,0x1b};Require(Convert.ToBase64String(r.ReadBytes(16))==Convert.ToBase64String(expected)&&r.ReadUInt32()==8,"Only registry v8 supported");
