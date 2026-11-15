@@ -66,7 +66,7 @@ public static class RegistryPak {
     static byte[] Hash(byte[] b){using(SHA1 h=SHA1.Create())return h.ComputeHash(b);}
     public static void Write(string file,byte[] registry) {
         byte[] payloadHash=Hash(registry);
-        byte[] directory=Bytes(w=>{w.Write(1);w.Write(0);w.Write(1);FString(w,"AssetRegistry.bin");w.Write(0);});
+        byte[] directory=Bytes(w=>{w.Write(1);FString(w,"/");w.Write(1);FString(w,"AssetRegistry.bin");w.Write(0);});
         long directoryOffset=53L+registry.Length;
         byte[] primary=Bytes(w=>{FString(w,"../../../SCUM/");w.Write(1);w.Write(0UL);w.Write(0);w.Write(1);w.Write(directoryOffset);w.Write((long)directory.Length);w.Write(Hash(directory));w.Write(12);w.Write(0xc0000000U);w.Write(0U);w.Write((uint)registry.Length);w.Write(0);});
         using(FileStream f=new FileStream(file,FileMode.CreateNew,FileAccess.Write,FileShare.None))using(BinaryWriter w=new BinaryWriter(f)){
