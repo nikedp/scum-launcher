@@ -7091,1119 +7091,6 @@
       "packageFlags": 0
     },
     {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6.BPC_SCUMLab_MH6",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6.BPC_SCUMLab_MH6_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847124"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "3"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6"
-        },
-        "SpawnGroup": {
-          "storageType": "AnsiString",
-          "value": "VehicleSpawnGroup.KingletDuster"
-        },
-        "NetCullDistance": {
-          "storageType": "AnsiString",
-          "value": "100000.000000"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6",
-      "assetName": "BPC_SCUMLab_MH6",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6.BPC_SCUMLab_MH6_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6",
-      "assetName": "BPC_SCUMLab_MH6_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6_ES.SCUMLab_MH6_ES",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6_ES.SCUMLab_MH6_ES_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847120"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "True"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6_ES"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6_ES",
-      "assetName": "SCUMLab_MH6_ES",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6_ES.SCUMLab_MH6_ES_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6_ES"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6_ES",
-      "assetName": "SCUMLab_MH6_ES_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6ManualSpawnPreset.SCUMLabMH6ManualSpawnPreset",
-      "assetClass": "VehiclePreset",
-      "tags": {
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "VehiclePreset"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLabMH6ManualSpawnPreset"
-        },
-        "NativeClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehiclePreset'"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6ManualSpawnPreset",
-      "assetName": "SCUMLabMH6ManualSpawnPreset",
-      "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Body.M_SCUMLab_MH6_Body",
-      "assetClass": "Material",
-      "tags": {
-        "ShadingModel": {
-          "storageType": "AnsiString",
-          "value": "MSM_DefaultLit"
-        },
-        "BlendMode": {
-          "storageType": "AnsiString",
-          "value": "BLEND_Opaque"
-        },
-        "TranslucencyLightingMode": {
-          "storageType": "AnsiString",
-          "value": "TLM_VolumetricNonDirectional"
-        },
-        "ShadingModels": {
-          "storageType": "AnsiString",
-          "value": "(ShadingModelField=2)"
-        },
-        "MaterialDecalResponse": {
-          "storageType": "AnsiString",
-          "value": "MDR_ColorNormalRoughness"
-        },
-        "MaterialDomain": {
-          "storageType": "AnsiString",
-          "value": "MD_Surface"
-        },
-        "HasSceneColor": {
-          "storageType": "AnsiString",
-          "value": "False"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Body",
-      "assetName": "M_SCUMLab_MH6_Body",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Glass.M_SCUMLab_MH6_Glass",
-      "assetClass": "Material",
-      "tags": {
-        "ShadingModel": {
-          "storageType": "AnsiString",
-          "value": "MSM_DefaultLit"
-        },
-        "BlendMode": {
-          "storageType": "AnsiString",
-          "value": "BLEND_Translucent"
-        },
-        "TranslucencyLightingMode": {
-          "storageType": "AnsiString",
-          "value": "TLM_VolumetricNonDirectional"
-        },
-        "ShadingModels": {
-          "storageType": "AnsiString",
-          "value": "(ShadingModelField=2)"
-        },
-        "MaterialDecalResponse": {
-          "storageType": "AnsiString",
-          "value": "MDR_ColorNormalRoughness"
-        },
-        "MaterialDomain": {
-          "storageType": "AnsiString",
-          "value": "MD_Surface"
-        },
-        "HasSceneColor": {
-          "storageType": "AnsiString",
-          "value": "False"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Glass",
-      "assetName": "M_SCUMLab_MH6_Glass",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_Body.SM_MH6_Body",
-      "assetClass": "StaticMesh",
-      "tags": {
-        "Vertices": {
-          "storageType": "AnsiString",
-          "value": "12086"
-        },
-        "Materials": {
-          "storageType": "AnsiString",
-          "value": "2"
-        },
-        "Triangles": {
-          "storageType": "AnsiString",
-          "value": "8661"
-        },
-        "MinLOD": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "None"
-        },
-        "UVChannels": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "ApproxSize": {
-          "storageType": "AnsiString",
-          "value": "896x753x301"
-        },
-        "CollisionPrims": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "LODs": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "SectionsWithCollision": {
-          "storageType": "AnsiString",
-          "value": "2"
-        },
-        "DefaultCollision": {
-          "storageType": "AnsiString",
-          "value": "BlockAll"
-        },
-        "CollisionComplexity": {
-          "storageType": "AnsiString",
-          "value": "CTF_UseSimpleAndComplex"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_Body",
-      "assetName": "SM_MH6_Body",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_MainRotor.SM_MH6_MainRotor",
-      "assetClass": "StaticMesh",
-      "tags": {
-        "Vertices": {
-          "storageType": "AnsiString",
-          "value": "1831"
-        },
-        "Materials": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "Triangles": {
-          "storageType": "AnsiString",
-          "value": "971"
-        },
-        "MinLOD": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "None"
-        },
-        "UVChannels": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "ApproxSize": {
-          "storageType": "AnsiString",
-          "value": "732x753x61"
-        },
-        "CollisionPrims": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "LODs": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "SectionsWithCollision": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "DefaultCollision": {
-          "storageType": "AnsiString",
-          "value": "BlockAll"
-        },
-        "CollisionComplexity": {
-          "storageType": "AnsiString",
-          "value": "CTF_UseSimpleAndComplex"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_MainRotor",
-      "assetName": "SM_MH6_MainRotor",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_TailRotor.SM_MH6_TailRotor",
-      "assetClass": "StaticMesh",
-      "tags": {
-        "Vertices": {
-          "storageType": "AnsiString",
-          "value": "287"
-        },
-        "Materials": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "Triangles": {
-          "storageType": "AnsiString",
-          "value": "144"
-        },
-        "MinLOD": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "None"
-        },
-        "UVChannels": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "ApproxSize": {
-          "storageType": "AnsiString",
-          "value": "28x11x156"
-        },
-        "CollisionPrims": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "LODs": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "SectionsWithCollision": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "DefaultCollision": {
-          "storageType": "AnsiString",
-          "value": "BlockAll"
-        },
-        "CollisionComplexity": {
-          "storageType": "AnsiString",
-          "value": "CTF_UseSimpleAndComplex"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_TailRotor",
-      "assetName": "SM_MH6_TailRotor",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_BaseColor.T_MH6_BaseColor",
-      "assetClass": "Texture2D",
-      "tags": {
-        "Format": {
-          "storageType": "AnsiString",
-          "value": "unknown"
-        },
-        "sRGB": {
-          "storageType": "AnsiString",
-          "value": "True"
-        },
-        "CompressionSettings": {
-          "storageType": "AnsiString",
-          "value": "TC_Default"
-        },
-        "MipLoadOptions": {
-          "storageType": "AnsiString",
-          "value": "Default"
-        },
-        "LODBias": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "Filter": {
-          "storageType": "AnsiString",
-          "value": "TF_Default"
-        },
-        "Dimensions": {
-          "storageType": "AnsiString",
-          "value": "2048x2048"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "VirtualTextureStreaming": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "TEXTUREGROUP_World"
-        },
-        "AddressY": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "AddressX": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "HasAlphaChannel": {
-          "storageType": "AnsiString",
-          "value": "True"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_BaseColor",
-      "assetName": "T_MH6_BaseColor",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_Normal.T_MH6_Normal",
-      "assetClass": "Texture2D",
-      "tags": {
-        "Format": {
-          "storageType": "AnsiString",
-          "value": "unknown"
-        },
-        "sRGB": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "CompressionSettings": {
-          "storageType": "AnsiString",
-          "value": "TC_Normalmap"
-        },
-        "MipLoadOptions": {
-          "storageType": "AnsiString",
-          "value": "Default"
-        },
-        "LODBias": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "Filter": {
-          "storageType": "AnsiString",
-          "value": "TF_Default"
-        },
-        "Dimensions": {
-          "storageType": "AnsiString",
-          "value": "2048x2048"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "VirtualTextureStreaming": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "TEXTUREGROUP_WorldNormalMap"
-        },
-        "AddressY": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "AddressX": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "HasAlphaChannel": {
-          "storageType": "AnsiString",
-          "value": "True"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_Normal",
-      "assetName": "T_MH6_Normal",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_ORM.T_MH6_ORM",
-      "assetClass": "Texture2D",
-      "tags": {
-        "Format": {
-          "storageType": "AnsiString",
-          "value": "unknown"
-        },
-        "sRGB": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "CompressionSettings": {
-          "storageType": "AnsiString",
-          "value": "TC_Masks"
-        },
-        "MipLoadOptions": {
-          "storageType": "AnsiString",
-          "value": "Default"
-        },
-        "LODBias": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "Filter": {
-          "storageType": "AnsiString",
-          "value": "TF_Default"
-        },
-        "Dimensions": {
-          "storageType": "AnsiString",
-          "value": "2048x2048"
-        },
-        "NeverStream": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "VirtualTextureStreaming": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "LODGroup": {
-          "storageType": "AnsiString",
-          "value": "TEXTUREGROUP_World"
-        },
-        "AddressY": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "AddressX": {
-          "storageType": "AnsiString",
-          "value": "TA_Wrap"
-        },
-        "HasAlphaChannel": {
-          "storageType": "AnsiString",
-          "value": "True"
-        }
-      },
-      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_ORM",
-      "assetName": "T_MH6_ORM",
-      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6A.BPC_SCUMLab_MH6A",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6A.BPC_SCUMLab_MH6A_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847124"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6A"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6A"
-        },
-        "SpawnGroup": {
-          "storageType": "AnsiString",
-          "value": "VehicleSpawnGroup.KingletDuster"
-        },
-        "NetCullDistance": {
-          "storageType": "AnsiString",
-          "value": "100000.000000"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6A",
-      "assetName": "BPC_SCUMLab_MH6A",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6A.BPC_SCUMLab_MH6A_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6A"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6A"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6A",
-      "assetName": "BPC_SCUMLab_MH6A_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6A_ES.SCUMLab_MH6A_ES",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6A_ES.SCUMLab_MH6A_ES_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847120"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "True"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6A_ES"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6A_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6A_ES",
-      "assetName": "SCUMLab_MH6A_ES",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6A_ES.SCUMLab_MH6A_ES_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6A_ES"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6A_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6A_ES",
-      "assetName": "SCUMLab_MH6A_ES_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6AManualSpawnPreset.SCUMLabMH6AManualSpawnPreset",
-      "assetClass": "VehiclePreset",
-      "tags": {
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "VehiclePreset"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLabMH6AManualSpawnPreset"
-        },
-        "NativeClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehiclePreset'"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6AManualSpawnPreset",
-      "assetName": "SCUMLabMH6AManualSpawnPreset",
-      "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6B.BPC_SCUMLab_MH6B",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6B.BPC_SCUMLab_MH6B_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847124"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "False"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "1"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6B"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6B"
-        },
-        "SpawnGroup": {
-          "storageType": "AnsiString",
-          "value": "VehicleSpawnGroup.KingletDuster"
-        },
-        "NetCullDistance": {
-          "storageType": "AnsiString",
-          "value": "100000.000000"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6B",
-      "assetName": "BPC_SCUMLab_MH6B",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6B.BPC_SCUMLab_MH6B_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.Airplane'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "Vehicle"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "BPC_SCUMLab_MH6B"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "BPC_SCUMLab_MH6B"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6B",
-      "assetName": "BPC_SCUMLab_MH6B_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6B_ES.SCUMLab_MH6B_ES",
-      "assetClass": "Blueprint",
-      "tags": {
-        "GeneratedClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6B_ES.SCUMLab_MH6B_ES_C'"
-        },
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "ClassFlags": {
-          "storageType": "AnsiString",
-          "value": "12847120"
-        },
-        "BlueprintType": {
-          "storageType": "AnsiString",
-          "value": "BPTYPE_Normal"
-        },
-        "IsDataOnly": {
-          "storageType": "AnsiString",
-          "value": "True"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "NativeComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintComponents": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "BlueprintPath": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6B_ES"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6B_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6B_ES",
-      "assetName": "SCUMLab_MH6B_ES",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6B_ES.SCUMLab_MH6B_ES_C",
-      "assetClass": "BlueprintGeneratedClass",
-      "tags": {
-        "ParentClass": {
-          "storageType": "NumberlessExportPath",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NativeParentClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
-        },
-        "NumReplicatedProperties": {
-          "storageType": "AnsiString",
-          "value": "0"
-        },
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "LWObjectSetup"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLab_MH6B_ES"
-        },
-        "ModuleName": {
-          "storageType": "AnsiString",
-          "value": "SCUMLab_MH6B_ES"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6B_ES",
-      "assetName": "SCUMLab_MH6B_ES_C",
-      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
-      "chunks": [],
-      "packageFlags": 262144
-    },
-    {
-      "objectPath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6BManualSpawnPreset.SCUMLabMH6BManualSpawnPreset",
-      "assetClass": "VehiclePreset",
-      "tags": {
-        "PrimaryAssetType": {
-          "storageType": "NumberlessName",
-          "value": "VehiclePreset"
-        },
-        "PrimaryAssetName": {
-          "storageType": "NumberlessName",
-          "value": "SCUMLabMH6BManualSpawnPreset"
-        },
-        "NativeClass": {
-          "storageType": "AnsiString",
-          "value": "Class'/Script/SCUM.VehiclePreset'"
-        }
-      },
-      "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6BManualSpawnPreset",
-      "assetName": "SCUMLabMH6BManualSpawnPreset",
-      "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
-      "chunks": [],
-      "packageFlags": 0
-    },
-    {
       "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6C.BPC_SCUMLab_MH6C",
       "assetClass": "Blueprint",
       "tags": {
@@ -8638,6 +7525,939 @@
       "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6DManualSpawnPreset",
       "assetName": "SCUMLabMH6DManualSpawnPreset",
       "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6E.BPC_SCUMLab_MH6E",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6E.BPC_SCUMLab_MH6E_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.Airplane'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847124"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "3"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6E"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "Vehicle"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6E"
+        },
+        "SpawnGroup": {
+          "storageType": "AnsiString",
+          "value": "VehicleSpawnGroup.KingletDuster"
+        },
+        "NetCullDistance": {
+          "storageType": "AnsiString",
+          "value": "100000.000000"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6E",
+      "assetName": "BPC_SCUMLab_MH6E",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6E.BPC_SCUMLab_MH6E_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.Airplane'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "Vehicle"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6E"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6E"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6E",
+      "assetName": "BPC_SCUMLab_MH6E_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6E_ES.SCUMLab_MH6E_ES",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6E_ES.SCUMLab_MH6E_ES_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "SCUMLab_MH6E_ES"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "LWObjectSetup"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLab_MH6E_ES"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6E_ES",
+      "assetName": "SCUMLab_MH6E_ES",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6E_ES.SCUMLab_MH6E_ES_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "LWObjectSetup"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLab_MH6E_ES"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "SCUMLab_MH6E_ES"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6E_ES",
+      "assetName": "SCUMLab_MH6E_ES_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6EManualSpawnPreset.SCUMLabMH6EManualSpawnPreset",
+      "assetClass": "VehiclePreset",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehiclePreset"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLabMH6EManualSpawnPreset"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehiclePreset'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6EManualSpawnPreset",
+      "assetName": "SCUMLabMH6EManualSpawnPreset",
+      "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6F.BPC_SCUMLab_MH6F",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6F.BPC_SCUMLab_MH6F_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.Airplane'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847124"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "3"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6F"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "Vehicle"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6F"
+        },
+        "SpawnGroup": {
+          "storageType": "AnsiString",
+          "value": "VehicleSpawnGroup.KingletDuster"
+        },
+        "NetCullDistance": {
+          "storageType": "AnsiString",
+          "value": "100000.000000"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6F",
+      "assetName": "BPC_SCUMLab_MH6F",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6F.BPC_SCUMLab_MH6F_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/BPC_Kinglet_Duster.BPC_Kinglet_Duster_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.Airplane'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "Vehicle"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6F"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6F"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/BPC_SCUMLab_MH6F",
+      "assetName": "BPC_SCUMLab_MH6F_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6F_ES.SCUMLab_MH6F_ES",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6F_ES.SCUMLab_MH6F_ES_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "SCUMLab_MH6F_ES"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "LWObjectSetup"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLab_MH6F_ES"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6F_ES",
+      "assetName": "SCUMLab_MH6F_ES",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6F_ES.SCUMLab_MH6F_ES_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleEntitySetup'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "LWObjectSetup"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLab_MH6F_ES"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "SCUMLab_MH6F_ES"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/SCUMLab_MH6F_ES",
+      "assetName": "SCUMLab_MH6F_ES_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6FManualSpawnPreset.SCUMLabMH6FManualSpawnPreset",
+      "assetClass": "VehiclePreset",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehiclePreset"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "SCUMLabMH6FManualSpawnPreset"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehiclePreset'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab/SCUMLabMH6FManualSpawnPreset",
+      "assetName": "SCUMLabMH6FManualSpawnPreset",
+      "packagePath": "/Game/ConZ_Files/Vehicles/SpawningPresets/ManualSpawn/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Body.M_SCUMLab_MH6_Body",
+      "assetClass": "Material",
+      "tags": {
+        "ShadingModel": {
+          "storageType": "AnsiString",
+          "value": "MSM_DefaultLit"
+        },
+        "BlendMode": {
+          "storageType": "AnsiString",
+          "value": "BLEND_Opaque"
+        },
+        "TranslucencyLightingMode": {
+          "storageType": "AnsiString",
+          "value": "TLM_VolumetricNonDirectional"
+        },
+        "ShadingModels": {
+          "storageType": "AnsiString",
+          "value": "(ShadingModelField=2)"
+        },
+        "MaterialDecalResponse": {
+          "storageType": "AnsiString",
+          "value": "MDR_ColorNormalRoughness"
+        },
+        "MaterialDomain": {
+          "storageType": "AnsiString",
+          "value": "MD_Surface"
+        },
+        "HasSceneColor": {
+          "storageType": "AnsiString",
+          "value": "False"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Body",
+      "assetName": "M_SCUMLab_MH6_Body",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Glass.M_SCUMLab_MH6_Glass",
+      "assetClass": "Material",
+      "tags": {
+        "ShadingModel": {
+          "storageType": "AnsiString",
+          "value": "MSM_DefaultLit"
+        },
+        "BlendMode": {
+          "storageType": "AnsiString",
+          "value": "BLEND_Translucent"
+        },
+        "TranslucencyLightingMode": {
+          "storageType": "AnsiString",
+          "value": "TLM_VolumetricNonDirectional"
+        },
+        "ShadingModels": {
+          "storageType": "AnsiString",
+          "value": "(ShadingModelField=2)"
+        },
+        "MaterialDecalResponse": {
+          "storageType": "AnsiString",
+          "value": "MDR_ColorNormalRoughness"
+        },
+        "MaterialDomain": {
+          "storageType": "AnsiString",
+          "value": "MD_Surface"
+        },
+        "HasSceneColor": {
+          "storageType": "AnsiString",
+          "value": "False"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Glass",
+      "assetName": "M_SCUMLab_MH6_Glass",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_Body.SM_MH6_Body",
+      "assetClass": "StaticMesh",
+      "tags": {
+        "Vertices": {
+          "storageType": "AnsiString",
+          "value": "12086"
+        },
+        "Materials": {
+          "storageType": "AnsiString",
+          "value": "2"
+        },
+        "Triangles": {
+          "storageType": "AnsiString",
+          "value": "8661"
+        },
+        "MinLOD": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "None"
+        },
+        "UVChannels": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "ApproxSize": {
+          "storageType": "AnsiString",
+          "value": "896x753x301"
+        },
+        "CollisionPrims": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "LODs": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "SectionsWithCollision": {
+          "storageType": "AnsiString",
+          "value": "2"
+        },
+        "DefaultCollision": {
+          "storageType": "AnsiString",
+          "value": "BlockAll"
+        },
+        "CollisionComplexity": {
+          "storageType": "AnsiString",
+          "value": "CTF_UseSimpleAndComplex"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_Body",
+      "assetName": "SM_MH6_Body",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_MainRotor.SM_MH6_MainRotor",
+      "assetClass": "StaticMesh",
+      "tags": {
+        "Vertices": {
+          "storageType": "AnsiString",
+          "value": "1831"
+        },
+        "Materials": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "Triangles": {
+          "storageType": "AnsiString",
+          "value": "971"
+        },
+        "MinLOD": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "None"
+        },
+        "UVChannels": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "ApproxSize": {
+          "storageType": "AnsiString",
+          "value": "732x753x61"
+        },
+        "CollisionPrims": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "LODs": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "SectionsWithCollision": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "DefaultCollision": {
+          "storageType": "AnsiString",
+          "value": "BlockAll"
+        },
+        "CollisionComplexity": {
+          "storageType": "AnsiString",
+          "value": "CTF_UseSimpleAndComplex"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_MainRotor",
+      "assetName": "SM_MH6_MainRotor",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_TailRotor.SM_MH6_TailRotor",
+      "assetClass": "StaticMesh",
+      "tags": {
+        "Vertices": {
+          "storageType": "AnsiString",
+          "value": "287"
+        },
+        "Materials": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "Triangles": {
+          "storageType": "AnsiString",
+          "value": "144"
+        },
+        "MinLOD": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "None"
+        },
+        "UVChannels": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "ApproxSize": {
+          "storageType": "AnsiString",
+          "value": "28x11x156"
+        },
+        "CollisionPrims": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "LODs": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "SectionsWithCollision": {
+          "storageType": "AnsiString",
+          "value": "1"
+        },
+        "DefaultCollision": {
+          "storageType": "AnsiString",
+          "value": "BlockAll"
+        },
+        "CollisionComplexity": {
+          "storageType": "AnsiString",
+          "value": "CTF_UseSimpleAndComplex"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/SM_MH6_TailRotor",
+      "assetName": "SM_MH6_TailRotor",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_BaseColor.T_MH6_BaseColor",
+      "assetClass": "Texture2D",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_Default"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "2048x2048"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_World"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_BaseColor",
+      "assetName": "T_MH6_BaseColor",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_Normal.T_MH6_Normal",
+      "assetClass": "Texture2D",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_Normalmap"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "2048x2048"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_WorldNormalMap"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_Normal",
+      "assetName": "T_MH6_Normal",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/T_MH6_ORM.T_MH6_ORM",
+      "assetClass": "Texture2D",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_Masks"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "2048x2048"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_World"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/T_MH6_ORM",
+      "assetName": "T_MH6_ORM",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Plain.M_SCUMLab_MH6_Plain",
+      "assetClass": "Material",
+      "tags": {
+        "ShadingModel": {
+          "storageType": "AnsiString",
+          "value": "MSM_DefaultLit"
+        },
+        "BlendMode": {
+          "storageType": "AnsiString",
+          "value": "BLEND_Opaque"
+        },
+        "TranslucencyLightingMode": {
+          "storageType": "AnsiString",
+          "value": "TLM_VolumetricNonDirectional"
+        },
+        "ShadingModels": {
+          "storageType": "AnsiString",
+          "value": "(ShadingModelField=2)"
+        },
+        "MaterialDecalResponse": {
+          "storageType": "AnsiString",
+          "value": "MDR_ColorNormalRoughness"
+        },
+        "MaterialDomain": {
+          "storageType": "AnsiString",
+          "value": "MD_Surface"
+        },
+        "HasSceneColor": {
+          "storageType": "AnsiString",
+          "value": "False"
+        }
+      },
+      "packageName": "/Game/SCUMLab/Vehicles/MH6/M_SCUMLab_MH6_Plain",
+      "assetName": "M_SCUMLab_MH6_Plain",
+      "packagePath": "/Game/SCUMLab/Vehicles/MH6",
       "chunks": [],
       "packageFlags": 0
     }
