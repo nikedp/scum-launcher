@@ -901,6 +901,6194 @@
         0
       ],
       "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0048.CR_LabF0048",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0048"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0048",
+      "assetName": "CR_LabF0048",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048.BP_LabF0048",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0048"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048.BP_LabF0048_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0048"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048",
+      "assetName": "BP_LabF0048",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048.BP_LabF0048_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0048"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0048"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048",
+      "assetName": "BP_LabF0048_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0088.CR_LabF0088",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0088"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0088",
+      "assetName": "CR_LabF0088",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088.BP_LabF0088",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0088"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088.BP_LabF0088_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0088"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088",
+      "assetName": "BP_LabF0088",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088.BP_LabF0088_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0088"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0088"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088",
+      "assetName": "BP_LabF0088_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0172.CR_LabF0172",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0172"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0172",
+      "assetName": "CR_LabF0172",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172.BP_LabF0172",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0172"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172.BP_LabF0172_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0172"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172",
+      "assetName": "BP_LabF0172",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172.BP_LabF0172_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0172"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0172"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172",
+      "assetName": "BP_LabF0172_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0178.CR_LabF0178",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0178"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0178",
+      "assetName": "CR_LabF0178",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178.BP_LabF0178",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0178"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178.BP_LabF0178_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0178"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178",
+      "assetName": "BP_LabF0178",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178.BP_LabF0178_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0178"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0178"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178",
+      "assetName": "BP_LabF0178_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0179.CR_LabF0179",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0179"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0179",
+      "assetName": "CR_LabF0179",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179.BP_LabF0179",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0179"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179.BP_LabF0179_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0179"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179",
+      "assetName": "BP_LabF0179",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179.BP_LabF0179_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0179"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0179"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179",
+      "assetName": "BP_LabF0179_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0180.CR_LabF0180",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0180"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0180",
+      "assetName": "CR_LabF0180",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180.BP_LabF0180",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0180"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180.BP_LabF0180_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0180"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180",
+      "assetName": "BP_LabF0180",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180.BP_LabF0180_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0180"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0180"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180",
+      "assetName": "BP_LabF0180_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0181.CR_LabF0181",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0181"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0181",
+      "assetName": "CR_LabF0181",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181.BP_LabF0181",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0181"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181.BP_LabF0181_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0181"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181",
+      "assetName": "BP_LabF0181",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181.BP_LabF0181_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0181"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0181"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181",
+      "assetName": "BP_LabF0181_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0183.CR_LabF0183",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0183"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0183",
+      "assetName": "CR_LabF0183",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183.BP_LabF0183",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0183"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183.BP_LabF0183_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0183"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183",
+      "assetName": "BP_LabF0183",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183.BP_LabF0183_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0183"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0183"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183",
+      "assetName": "BP_LabF0183_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0186.CR_LabF0186",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0186"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0186",
+      "assetName": "CR_LabF0186",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186.BP_LabF0186",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0186"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186.BP_LabF0186_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0186"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186",
+      "assetName": "BP_LabF0186",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186.BP_LabF0186_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0186"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0186"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186",
+      "assetName": "BP_LabF0186_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0275.CR_LabF0275",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0275"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0275",
+      "assetName": "CR_LabF0275",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275.BP_LabF0275",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0275"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275.BP_LabF0275_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0275"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275",
+      "assetName": "BP_LabF0275",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275.BP_LabF0275_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0275"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0275"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275",
+      "assetName": "BP_LabF0275_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0371.CR_LabF0371",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0371"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0371",
+      "assetName": "CR_LabF0371",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371.BP_LabF0371",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0371"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371.BP_LabF0371_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0371"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371",
+      "assetName": "BP_LabF0371",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371.BP_LabF0371_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0371"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0371"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371",
+      "assetName": "BP_LabF0371_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0381.CR_LabF0381",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0381"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0381",
+      "assetName": "CR_LabF0381",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381.BP_LabF0381",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0381"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381.BP_LabF0381_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0381"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381",
+      "assetName": "BP_LabF0381",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381.BP_LabF0381_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0381"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0381"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381",
+      "assetName": "BP_LabF0381_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0420.CR_LabF0420",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0420"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0420",
+      "assetName": "CR_LabF0420",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420.BP_LabF0420",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0420"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420.BP_LabF0420_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0420"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420",
+      "assetName": "BP_LabF0420",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420.BP_LabF0420_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0420"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0420"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420",
+      "assetName": "BP_LabF0420_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0586.CR_LabF0586",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0586"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0586",
+      "assetName": "CR_LabF0586",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586.BP_LabF0586",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0586"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586.BP_LabF0586_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0586"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586",
+      "assetName": "BP_LabF0586",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586.BP_LabF0586_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0586"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0586"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586",
+      "assetName": "BP_LabF0586_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0599.CR_LabF0599",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0599"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0599",
+      "assetName": "CR_LabF0599",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599.BP_LabF0599",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0599"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599.BP_LabF0599_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0599"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599",
+      "assetName": "BP_LabF0599",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599.BP_LabF0599_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0599"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0599"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599",
+      "assetName": "BP_LabF0599_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0621.CR_LabF0621",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0621"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0621",
+      "assetName": "CR_LabF0621",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621.BP_LabF0621",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0621"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621.BP_LabF0621_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0621"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621",
+      "assetName": "BP_LabF0621",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621.BP_LabF0621_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0621"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0621"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621",
+      "assetName": "BP_LabF0621_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0622.CR_LabF0622",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0622"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0622",
+      "assetName": "CR_LabF0622",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622.BP_LabF0622",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0622"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622.BP_LabF0622_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0622"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622",
+      "assetName": "BP_LabF0622",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622.BP_LabF0622_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0622"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0622"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622",
+      "assetName": "BP_LabF0622_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0638.CR_LabF0638",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0638"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0638",
+      "assetName": "CR_LabF0638",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638.BP_LabF0638",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0638"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638.BP_LabF0638_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0638"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638",
+      "assetName": "BP_LabF0638",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638.BP_LabF0638_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0638"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0638"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638",
+      "assetName": "BP_LabF0638_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0644.CR_LabF0644",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0644"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0644",
+      "assetName": "CR_LabF0644",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644.BP_LabF0644",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0644"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644.BP_LabF0644_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0644"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644",
+      "assetName": "BP_LabF0644",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644.BP_LabF0644_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0644"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0644"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644",
+      "assetName": "BP_LabF0644_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0647.CR_LabF0647",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0647"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0647",
+      "assetName": "CR_LabF0647",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647.BP_LabF0647",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0647"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647.BP_LabF0647_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0647"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647",
+      "assetName": "BP_LabF0647",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647.BP_LabF0647_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0647"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0647"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647",
+      "assetName": "BP_LabF0647_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0649.CR_LabF0649",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0649"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0649",
+      "assetName": "CR_LabF0649",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649.BP_LabF0649",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0649"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649.BP_LabF0649_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0649"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649",
+      "assetName": "BP_LabF0649",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649.BP_LabF0649_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0649"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0649"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649",
+      "assetName": "BP_LabF0649_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0654.CR_LabF0654",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0654"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0654",
+      "assetName": "CR_LabF0654",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654.BP_LabF0654",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0654"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654.BP_LabF0654_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0654"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654",
+      "assetName": "BP_LabF0654",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654.BP_LabF0654_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0654"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0654"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654",
+      "assetName": "BP_LabF0654_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0664.CR_LabF0664",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0664"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0664",
+      "assetName": "CR_LabF0664",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664.BP_LabF0664",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0664"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664.BP_LabF0664_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0664"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664",
+      "assetName": "BP_LabF0664",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664.BP_LabF0664_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0664"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0664"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664",
+      "assetName": "BP_LabF0664_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0672.CR_LabF0672",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0672"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0672",
+      "assetName": "CR_LabF0672",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672.BP_LabF0672",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0672"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672.BP_LabF0672_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0672"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672",
+      "assetName": "BP_LabF0672",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672.BP_LabF0672_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0672"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0672"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672",
+      "assetName": "BP_LabF0672_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0679.CR_LabF0679",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0679"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0679",
+      "assetName": "CR_LabF0679",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679.BP_LabF0679",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0679"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679.BP_LabF0679_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0679"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679",
+      "assetName": "BP_LabF0679",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679.BP_LabF0679_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0679"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0679"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679",
+      "assetName": "BP_LabF0679_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0783.CR_LabF0783",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0783"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0783",
+      "assetName": "CR_LabF0783",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783.BP_LabF0783",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0783"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783.BP_LabF0783_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0783"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783",
+      "assetName": "BP_LabF0783",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783.BP_LabF0783_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0783"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0783"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783",
+      "assetName": "BP_LabF0783_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0806.CR_LabF0806",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0806"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0806",
+      "assetName": "CR_LabF0806",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806.BP_LabF0806",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0806"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806.BP_LabF0806_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0806"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806",
+      "assetName": "BP_LabF0806",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806.BP_LabF0806_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0806"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0806"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806",
+      "assetName": "BP_LabF0806_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0810.CR_LabF0810",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0810"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0810",
+      "assetName": "CR_LabF0810",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810.BP_LabF0810",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0810"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810.BP_LabF0810_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0810"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810",
+      "assetName": "BP_LabF0810",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810.BP_LabF0810_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0810"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0810"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810",
+      "assetName": "BP_LabF0810_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0811.CR_LabF0811",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0811"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0811",
+      "assetName": "CR_LabF0811",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811.BP_LabF0811",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0811"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811.BP_LabF0811_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0811"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811",
+      "assetName": "BP_LabF0811",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811.BP_LabF0811_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0811"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0811"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811",
+      "assetName": "BP_LabF0811_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0824.CR_LabF0824",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0824"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0824",
+      "assetName": "CR_LabF0824",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824.BP_LabF0824",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0824"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824.BP_LabF0824_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0824"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824",
+      "assetName": "BP_LabF0824",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824.BP_LabF0824_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0824"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0824"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824",
+      "assetName": "BP_LabF0824_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0832.CR_LabF0832",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0832"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0832",
+      "assetName": "CR_LabF0832",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832.BP_LabF0832",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0832"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832.BP_LabF0832_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0832"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832",
+      "assetName": "BP_LabF0832",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832.BP_LabF0832_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0832"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0832"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832",
+      "assetName": "BP_LabF0832_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0973.CR_LabF0973",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF0973"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0973",
+      "assetName": "CR_LabF0973",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973.BP_LabF0973",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0973"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973.BP_LabF0973_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0973"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973",
+      "assetName": "BP_LabF0973",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973.BP_LabF0973_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF0973"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF0973"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973",
+      "assetName": "BP_LabF0973_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1080.CR_LabF1080",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF1080"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1080",
+      "assetName": "CR_LabF1080",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080.BP_LabF1080",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF1080"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080.BP_LabF1080_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF1080"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080",
+      "assetName": "BP_LabF1080",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080.BP_LabF1080_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF1080"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF1080"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080",
+      "assetName": "BP_LabF1080_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1113.CR_LabF1113",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabF1113"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1113",
+      "assetName": "CR_LabF1113",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113.BP_LabF1113",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF1113"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113.BP_LabF1113_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF1113"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113",
+      "assetName": "BP_LabF1113",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113.BP_LabF1113_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabF1113"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabF1113"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113",
+      "assetName": "BP_LabF1113_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0048.ICO_LabF0048",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0048",
+      "assetName": "ICO_LabF0048",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0088.ICO_LabF0088",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0088",
+      "assetName": "ICO_LabF0088",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0172.ICO_LabF0172",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0172",
+      "assetName": "ICO_LabF0172",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0178.ICO_LabF0178",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0178",
+      "assetName": "ICO_LabF0178",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0179.ICO_LabF0179",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0179",
+      "assetName": "ICO_LabF0179",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0180.ICO_LabF0180",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0180",
+      "assetName": "ICO_LabF0180",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0181.ICO_LabF0181",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0181",
+      "assetName": "ICO_LabF0181",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0183.ICO_LabF0183",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0183",
+      "assetName": "ICO_LabF0183",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0186.ICO_LabF0186",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0186",
+      "assetName": "ICO_LabF0186",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0275.ICO_LabF0275",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0275",
+      "assetName": "ICO_LabF0275",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0371.ICO_LabF0371",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0371",
+      "assetName": "ICO_LabF0371",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0381.ICO_LabF0381",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0381",
+      "assetName": "ICO_LabF0381",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0420.ICO_LabF0420",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0420",
+      "assetName": "ICO_LabF0420",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0586.ICO_LabF0586",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0586",
+      "assetName": "ICO_LabF0586",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0599.ICO_LabF0599",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0599",
+      "assetName": "ICO_LabF0599",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0621.ICO_LabF0621",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0621",
+      "assetName": "ICO_LabF0621",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0622.ICO_LabF0622",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0622",
+      "assetName": "ICO_LabF0622",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0638.ICO_LabF0638",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0638",
+      "assetName": "ICO_LabF0638",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0644.ICO_LabF0644",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0644",
+      "assetName": "ICO_LabF0644",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0647.ICO_LabF0647",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0647",
+      "assetName": "ICO_LabF0647",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0649.ICO_LabF0649",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0649",
+      "assetName": "ICO_LabF0649",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0654.ICO_LabF0654",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0654",
+      "assetName": "ICO_LabF0654",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0664.ICO_LabF0664",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0664",
+      "assetName": "ICO_LabF0664",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0672.ICO_LabF0672",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0672",
+      "assetName": "ICO_LabF0672",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0679.ICO_LabF0679",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0679",
+      "assetName": "ICO_LabF0679",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0783.ICO_LabF0783",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0783",
+      "assetName": "ICO_LabF0783",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0806.ICO_LabF0806",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0806",
+      "assetName": "ICO_LabF0806",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0810.ICO_LabF0810",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0810",
+      "assetName": "ICO_LabF0810",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0811.ICO_LabF0811",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0811",
+      "assetName": "ICO_LabF0811",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0824.ICO_LabF0824",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0824",
+      "assetName": "ICO_LabF0824",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0832.ICO_LabF0832",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0832",
+      "assetName": "ICO_LabF0832",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0973.ICO_LabF0973",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0973",
+      "assetName": "ICO_LabF0973",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1080.ICO_LabF1080",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1080",
+      "assetName": "ICO_LabF1080",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1113.ICO_LabF1113",
+      "packagePath": "/Game/SCUMLab/Furniture/SelectedIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1113",
+      "assetName": "ICO_LabF1113",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
     }
   ],
   "requirements": [

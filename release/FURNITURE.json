@@ -1,0 +1,659 @@
+{
+  "version": "0.1.10",
+  "items": [
+    {
+      "id": "F0048",
+      "caption": "Lab F0048 Bookcase 01",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Abandoned_School/Meshes/Misc/SM_Bookcase_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0048.ICO_LabF0048",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0048.BP_LabF0048_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0048",
+      "approxSize": [
+        35,
+        100,
+        180
+      ],
+      "collisionPrims": 10,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0088",
+      "caption": "Lab F0088 Street Lamp 02",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Abandoned_School/Meshes/Misc/SM_Street_Lamp_02",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0088.ICO_LabF0088",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0088.BP_LabF0088_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0088",
+      "approxSize": [
+        49,
+        49,
+        426
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0172",
+      "caption": "Lab F0172 4 Floor Building 03 Custom Table",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/4_Floor_Building_03/Stuff/SM_4_Floor_Building_03_Custom_Table",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0172.ICO_LabF0172",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0172.BP_LabF0172_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0172",
+      "approxSize": [
+        428,
+        160,
+        110
+      ],
+      "collisionPrims": 4,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0178",
+      "caption": "Lab F0178 Sofa03 1",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/InteriorProps/Meshes/SM_Sofa03_1",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0178.ICO_LabF0178",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0178.BP_LabF0178_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0178",
+      "approxSize": [
+        181,
+        109,
+        118
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0179",
+      "caption": "Lab F0179 Sofa03 2",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/InteriorProps/Meshes/SM_Sofa03_2",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0179.ICO_LabF0179",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0179.BP_LabF0179_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0179",
+      "approxSize": [
+        109,
+        110,
+        118
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0180",
+      "caption": "Lab F0180 Sofa03 3",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/InteriorProps/Meshes/SM_Sofa03_3",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0180.ICO_LabF0180",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0180.BP_LabF0180_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0180",
+      "approxSize": [
+        310,
+        123,
+        118
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0181",
+      "caption": "Lab F0181 Sofa03 4",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/InteriorProps/Meshes/SM_Sofa03_4",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0181.ICO_LabF0181",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0181.BP_LabF0181_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0181",
+      "approxSize": [
+        400,
+        291,
+        118
+      ],
+      "collisionPrims": 6,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0183",
+      "caption": "Lab F0183 Table03",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/InteriorProps/Meshes/SM_Table03",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0183.ICO_LabF0183",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0183.BP_LabF0183_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0183",
+      "approxSize": [
+        99,
+        99,
+        80
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0186",
+      "caption": "Lab F0186 DJTable01",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/City/DanceClub/StageEquipment/Meshes/SM_DJTable01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0186.ICO_LabF0186",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0186.BP_LabF0186_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0186",
+      "approxSize": [
+        440,
+        200,
+        109
+      ],
+      "collisionPrims": 4,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0275",
+      "caption": "Lab F0275 MERGED Int WingB SurgerySInk",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Hospital_Klenovnik/Architecture/Meshes/Merged_Meshes/HospitalInterior/SM_MERGED_Int_WingB_SurgerySInk",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0275.ICO_LabF0275",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0275.BP_LabF0275_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0275",
+      "approxSize": [
+        160,
+        93,
+        106
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0371",
+      "caption": "Lab F0371 Wall Lamp 02",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/Lights/SM_Wall_Lamp_02",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0371.ICO_LabF0371",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0371.BP_LabF0371_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0371",
+      "approxSize": [
+        16,
+        19,
+        25
+      ],
+      "collisionPrims": 0,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0381",
+      "caption": "Lab F0381 Armory DisplayTable 02",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/Weapon_Racks/SM_Armory_DisplayTable_02",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0381.ICO_LabF0381",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0381.BP_LabF0381_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0381",
+      "approxSize": [
+        340,
+        129,
+        103
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0420",
+      "caption": "Lab F0420 Lamp 01",
+      "mesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_Lamp_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0420.ICO_LabF0420",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0420.BP_LabF0420_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0420",
+      "approxSize": [
+        55,
+        46,
+        55
+      ],
+      "collisionPrims": 0,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0586",
+      "caption": "Lab F0586 Desk 04",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/70s_Furniture/SM_Desk_04",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0586.ICO_LabF0586",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0586.BP_LabF0586_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0586",
+      "approxSize": [
+        219,
+        97,
+        82
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0599",
+      "caption": "Lab F0599 Fridge 01 Merged Closed",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/70s_Furniture/SM_Fridge_01_Merged_Closed",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0599.ICO_LabF0599",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0599.BP_LabF0599_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0599",
+      "approxSize": [
+        88,
+        94,
+        188
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0621",
+      "caption": "Lab F0621 KitchenStove Merged 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/70s_Furniture/SM_KitchenStove_Merged_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0621.ICO_LabF0621",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0621.BP_LabF0621_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0621",
+      "approxSize": [
+        75,
+        79,
+        92
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0622",
+      "caption": "Lab F0622 Lamp 04",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/70s_Furniture/SM_Lamp_04",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0622.ICO_LabF0622",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0622.BP_LabF0622_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0622",
+      "approxSize": [
+        20,
+        20,
+        44
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0638",
+      "caption": "Lab F0638 Chair Terrace 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bar/Chairs_Terrace/SM_Chair_Terrace_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0638.ICO_LabF0638",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0638.BP_LabF0638_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0638",
+      "approxSize": [
+        71,
+        65,
+        102
+      ],
+      "collisionPrims": 4,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0644",
+      "caption": "Lab F0644 Bar Fridge Big 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bar/Fridges/Large/SM_Bar_Fridge_Big_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0644.ICO_LabF0644",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0644.BP_LabF0644_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0644",
+      "approxSize": [
+        73,
+        54,
+        198
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0647",
+      "caption": "Lab F0647 Bar Fridge Small 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bar/Fridges/Small/SM_Bar_Fridge_Small_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0647.ICO_LabF0647",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0647.BP_LabF0647_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0647",
+      "approxSize": [
+        55,
+        54,
+        80
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0649",
+      "caption": "Lab F0649 Table Bar 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bar/Tables/SM_Table_Bar_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0649.ICO_LabF0649",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0649.BP_LabF0649_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0649",
+      "approxSize": [
+        75,
+        75,
+        76
+      ],
+      "collisionPrims": 3,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0654",
+      "caption": "Lab F0654 Wall Lamp",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bathroom/Misc/SM_Wall_Lamp",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0654.ICO_LabF0654",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0654.BP_LabF0654_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0654",
+      "approxSize": [
+        15,
+        16,
+        22
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0664",
+      "caption": "Lab F0664 Toilet 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bathroom/Toilet/SM_Toilet_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0664.ICO_LabF0664",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0664.BP_LabF0664_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0664",
+      "approxSize": [
+        76,
+        58,
+        122
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0672",
+      "caption": "Lab F0672 Classic Retro Sofa",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Classic_Interior_Props/Classic_Retro_Sofa/SM_Classic_Retro_Sofa",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0672.ICO_LabF0672",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0672.BP_LabF0672_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0672",
+      "approxSize": [
+        346,
+        127,
+        110
+      ],
+      "collisionPrims": 5,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0679",
+      "caption": "Lab F0679 Bar Cabinet 01 A",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Bar_Cabinet/SM_Bar_Cabinet_01_A",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0679.ICO_LabF0679",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0679.BP_LabF0679_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0679",
+      "approxSize": [
+        91,
+        43,
+        94
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0783",
+      "caption": "Lab F0783 Stool 1 A Main 1",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Old_Furnitures/Meshes/SM_Stool_1_A_Main_1",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0783.ICO_LabF0783",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0783.BP_LabF0783_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0783",
+      "approxSize": [
+        64,
+        68,
+        72
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0806",
+      "caption": "Lab F0806 AdrianeC Dog Picture Small 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Small_Picture_Frames/AdrianeChechik_Dog/SM_AdrianeC_Dog_Picture_Small_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0806.ICO_LabF0806",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0806.BP_LabF0806_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0806",
+      "approxSize": [
+        21,
+        13,
+        20
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0810",
+      "caption": "Lab F0810 Dog Picture Small 02",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Small_Picture_Frames/StreamerDog/SM_Dog_Picture_Small_02",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0810.ICO_LabF0810",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0810.BP_LabF0810_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0810",
+      "approxSize": [
+        21,
+        13,
+        25
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0811",
+      "caption": "Lab F0811 Picture Frame Table Small Sunset 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Small_Picture_Frames/Sunset/SM_Picture_Frame_Table_Small_Sunset_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0811.ICO_LabF0811",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0811.BP_LabF0811_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0811",
+      "approxSize": [
+        21,
+        13,
+        20
+      ],
+      "collisionPrims": 0,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0824",
+      "caption": "Lab F0824 Water Tank Office 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Water_Tank_Office/SM_Water_Tank_Office_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0824.ICO_LabF0824",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0824.BP_LabF0824_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0824",
+      "approxSize": [
+        40,
+        40,
+        164
+      ],
+      "collisionPrims": 2,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0832",
+      "caption": "Lab F0832 Bench Press 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Gym/Bench_Press/SM_Bench_Press_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0832.ICO_LabF0832",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0832.BP_LabF0832_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0832",
+      "approxSize": [
+        214,
+        188,
+        140
+      ],
+      "collisionPrims": 17,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F0973",
+      "caption": "Lab F0973 Pool Table 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Indoor/Pool_Table/SM_Pool_Table_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF0973.ICO_LabF0973",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF0973.BP_LabF0973_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF0973",
+      "approxSize": [
+        255,
+        140,
+        91
+      ],
+      "collisionPrims": 11,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F1080",
+      "caption": "Lab F1080 Sign Toilet 01",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Items/Signs/Toilet/SM_Sign_Toilet_01",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1080.ICO_LabF1080",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1080.BP_LabF1080_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1080",
+      "approxSize": [
+        22,
+        2,
+        22
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    },
+    {
+      "id": "F1113",
+      "caption": "Lab F1113 Stove01 RW",
+      "mesh": "/Game/ConZ_Files/Models/Objects/Items/Soviet_kitchen/Meshes/SM_Stove01_RW",
+      "icon": "/Game/SCUMLab/Furniture/SelectedIcons/ICO_LabF1113.ICO_LabF1113",
+      "product": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabF1113.BP_LabF1113_C",
+      "recipe": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabF1113",
+      "approxSize": [
+        69,
+        60,
+        88
+      ],
+      "collisionPrims": 1,
+      "ingredients": {
+        "planks": 2,
+        "nails": 4,
+        "toolbox": 1
+      }
+    }
+  ],
+  "limitations": [
+    "Prototype recipes use 2 planks, 4 nails, 1 toolbox at all engineering levels; balance is provisional",
+    "Icons are original catalogue-ID/category markers, not game-model renders",
+    "No new light, storage, plumbing, cooking, gym or billiards gameplay is implemented",
+    "Sitting may be supported by native mesh data; each item requires a client test",
+    "Wall fixtures use ordinary furniture placement and require testing",
+    "Bounds use registry ApproxSize; source pivots are retained"
+  ]
+}
