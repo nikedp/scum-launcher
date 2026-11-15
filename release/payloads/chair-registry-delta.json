@@ -706,6 +706,201 @@
       "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
       "chunks": [],
       "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabCoffeeTable01.ICO_LabCoffeeTable01",
+      "packagePath": "/Game/SCUMLab/Furniture/InteriorIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabCoffeeTable01",
+      "assetName": "ICO_LabCoffeeTable01",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabGuestChair01.ICO_LabGuestChair01",
+      "packagePath": "/Game/SCUMLab/Furniture/InteriorIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabGuestChair01",
+      "assetName": "ICO_LabGuestChair01",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabSofa08.ICO_LabSofa08",
+      "packagePath": "/Game/SCUMLab/Furniture/InteriorIcons",
+      "assetClass": "Texture2D",
+      "packageName": "/Game/SCUMLab/Furniture/InteriorIcons/ICO_LabSofa08",
+      "assetName": "ICO_LabSofa08",
+      "tags": {
+        "Format": {
+          "storageType": "AnsiString",
+          "value": "unknown"
+        },
+        "sRGB": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "CompressionSettings": {
+          "storageType": "AnsiString",
+          "value": "TC_EditorIcon"
+        },
+        "MipLoadOptions": {
+          "storageType": "AnsiString",
+          "value": "Default"
+        },
+        "LODBias": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "Filter": {
+          "storageType": "AnsiString",
+          "value": "TF_Default"
+        },
+        "Dimensions": {
+          "storageType": "AnsiString",
+          "value": "256x256"
+        },
+        "NeverStream": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "VirtualTextureStreaming": {
+          "storageType": "AnsiString",
+          "value": "False"
+        },
+        "LODGroup": {
+          "storageType": "AnsiString",
+          "value": "TEXTUREGROUP_UI"
+        },
+        "AddressY": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "AddressX": {
+          "storageType": "AnsiString",
+          "value": "TA_Wrap"
+        },
+        "HasAlphaChannel": {
+          "storageType": "AnsiString",
+          "value": "True"
+        }
+      },
+      "chunks": [
+        0
+      ],
+      "packageFlags": 0
     }
   ],
   "requirements": [
