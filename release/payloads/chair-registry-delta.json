@@ -355,6 +355,357 @@
         0
       ],
       "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabGuestChair01.CR_LabGuestChair01",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabGuestChair01"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabGuestChair01",
+      "assetName": "CR_LabGuestChair01",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabGuestChair01.BP_LabGuestChair01",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabGuestChair01"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabGuestChair01.BP_LabGuestChair01_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabGuestChair01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabGuestChair01",
+      "assetName": "BP_LabGuestChair01",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabGuestChair01.BP_LabGuestChair01_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabGuestChair01"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabGuestChair01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabGuestChair01",
+      "assetName": "BP_LabGuestChair01_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabCoffeeTable01.CR_LabCoffeeTable01",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabCoffeeTable01"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabCoffeeTable01",
+      "assetName": "CR_LabCoffeeTable01",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabCoffeeTable01.BP_LabCoffeeTable01",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabCoffeeTable01"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabCoffeeTable01.BP_LabCoffeeTable01_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabCoffeeTable01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabCoffeeTable01",
+      "assetName": "BP_LabCoffeeTable01",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabCoffeeTable01.BP_LabCoffeeTable01_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabCoffeeTable01"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabCoffeeTable01"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabCoffeeTable01",
+      "assetName": "BP_LabCoffeeTable01_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabSofa08.CR_LabSofa08",
+      "assetClass": "PlaceableCraftingRecipe",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "PlaceableCraftingRecipe"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "CR_LabSofa08"
+        },
+        "NativeClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.PlaceableCraftingRecipe'"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab/CR_LabSofa08",
+      "assetName": "CR_LabSofa08",
+      "packagePath": "/Game/ConZ_Files/Items/Crafting/Recipes/Placeables/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabSofa08.BP_LabSofa08",
+      "assetClass": "Blueprint",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabSofa08"
+        },
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabSofa08.BP_LabSofa08_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "14948372"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BP_LabSofa08"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabSofa08",
+      "assetName": "BP_LabSofa08",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabSofa08.BP_LabSofa08_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "BaseBuilding"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BP_LabSofa08"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.BaseBuildingComponent'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BP_LabSofa08"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab/BP_LabSofa08",
+      "assetName": "BP_LabSofa08_C",
+      "packagePath": "/Game/ConZ_Files/BaseBuilding/BaseElements/SCUMLab",
+      "chunks": [],
+      "packageFlags": 0
     }
   ],
   "requirements": [
