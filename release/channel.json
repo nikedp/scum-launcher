@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.16",
-  "tag": "v0.1.16",
-  "minLauncherVersion": "0.1.16",
+  "version": "0.1.17",
+  "tag": "v0.1.17",
+  "minLauncherVersion": "0.1.17",
   "clientSteamBuildId": "26621909",
   "serverSteamBuildId": "26621903",
   "experimental": true,
@@ -24,13 +24,13 @@
     },
     {
       "name": "pakchunk960-SCUMLabMH6_P.pak",
-      "bytes": 8651739,
-      "sha256": "63e3ba0784cbe9af5bcb2ec638d1cb64056ac16f1c138b4e3864843767506489"
+      "bytes": 8630524,
+      "sha256": "74c9ad00c91a72f6e963b2c2fb40e1809a4ab91c228f98eab8f0fdf79aafba5d"
     }
   ],
   "registryDelta": {
     "name": "chair-registry-delta.json",
-    "bytes": 262982,
-    "sha256": "9f612ce1b1ad5f748f78ce2bd78ef55537647fec8ac5c6c9cafb018e94f01431"
+    "bytes": 240521,
+    "sha256": "ca91e0b9d30df299239c82ce2744dbeba90fde41c24b9e0c6a4e3f10f4c099ee"
   }
 }
