@@ -16,7 +16,7 @@ internal sealed class MacCard:Panel {
 // Control has no native BUTTON window procedure, so Windows cannot paint square
 // hover/focus edges over the custom surface (visible on some client systems).
 internal sealed class MacButton:Control {
-    bool hover,pressed,keyPressed;public bool Primary,Navigation;
+    bool hover,pressed,keyPressed;public bool Primary,Navigation,Destructive;
     public MacButton(){SetStyle(ControlStyles.UserPaint|ControlStyles.AllPaintingInWmPaint|ControlStyles.OptimizedDoubleBuffer|ControlStyles.Selectable,true);TabStop=true;AccessibleRole=AccessibleRole.PushButton;Cursor=Cursors.Hand;Font=MacTheme.Font(10);}
     protected override void OnParentChanged(EventArgs e){base.OnParentChanged(e);BackColor=Parent is MacCard?MacTheme.Surface:Parent==null?MacTheme.Canvas:Parent.BackColor;}
     protected override void OnMouseEnter(EventArgs e){hover=true;Invalidate();base.OnMouseEnter(e);}
@@ -30,10 +30,10 @@ internal sealed class MacButton:Control {
     protected override void OnEnabledChanged(EventArgs e){Invalidate();base.OnEnabledChanged(e);}
     protected override void OnPaint(PaintEventArgs e){
         e.Graphics.Clear(BackColor);e.Graphics.SmoothingMode=SmoothingMode.AntiAlias;
-        Color fill=Primary?MacTheme.Blue:Navigation?Color.FromArgb(35,57,51):Color.FromArgb(36,43,54);
-        if(!Enabled)fill=Color.FromArgb(30,36,45);else if(pressed)fill=Primary?Color.FromArgb(62,187,132):Color.FromArgb(48,61,72);else if(hover)fill=Primary?Color.FromArgb(132,245,193):Color.FromArgb(45,57,69);
+        Color fill=Destructive?Color.FromArgb(65,34,43):Primary?MacTheme.Blue:Navigation?Color.FromArgb(35,57,51):Color.FromArgb(36,43,54);
+        if(!Enabled)fill=Color.FromArgb(30,36,45);else if(pressed)fill=Destructive?Color.FromArgb(99,42,54):Primary?Color.FromArgb(62,187,132):Color.FromArgb(48,61,72);else if(hover)fill=Destructive?Color.FromArgb(83,39,50):Primary?Color.FromArgb(132,245,193):Color.FromArgb(45,57,69);
         using(GraphicsPath p=MacTheme.Round(new RectangleF(1,1,Width-3,Height-3),6))using(SolidBrush brush=new SolidBrush(fill))using(Pen border=new Pen(Navigation?Color.FromArgb(57,106,83):Primary?fill:MacTheme.Line)){e.Graphics.FillPath(brush,p);e.Graphics.DrawPath(border,p);}
-        Color text=!Enabled?Color.FromArgb(112,126,145):Primary?Color.FromArgb(12,39,28):Navigation?MacTheme.Blue:MacTheme.Ink;
+        Color text=!Enabled?Color.FromArgb(112,126,145):Destructive?Color.FromArgb(255,126,143):Primary?Color.FromArgb(12,39,28):Navigation?MacTheme.Blue:MacTheme.Ink;
         TextRenderer.DrawText(e.Graphics,Text,Font,Rectangle.Inflate(ClientRectangle,-10,-2),text,TextFormatFlags.HorizontalCenter|TextFormatFlags.VerticalCenter|TextFormatFlags.SingleLine|TextFormatFlags.EndEllipsis|TextFormatFlags.NoPrefix);
         if(Focused&&ShowFocusCues)using(GraphicsPath p=MacTheme.Round(new RectangleF(4,4,Width-9,Height-9),4))using(Pen pen=new Pen(Primary?Color.FromArgb(20,68,47):MacTheme.Blue)){pen.DashStyle=DashStyle.Dot;e.Graphics.DrawPath(pen,p);}
     }
