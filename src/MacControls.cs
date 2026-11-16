@@ -28,6 +28,7 @@ internal sealed class MacButton:Control {
     protected override void OnGotFocus(EventArgs e){base.OnGotFocus(e);Invalidate();}
     protected override void OnLostFocus(EventArgs e){keyPressed=pressed=false;base.OnLostFocus(e);Invalidate();}
     protected override void OnEnabledChanged(EventArgs e){Invalidate();base.OnEnabledChanged(e);}
+    protected override void OnTextChanged(EventArgs e){Invalidate();base.OnTextChanged(e);}
     protected override void OnPaint(PaintEventArgs e){
         e.Graphics.Clear(BackColor);e.Graphics.SmoothingMode=SmoothingMode.AntiAlias;
         Color fill=Destructive?Color.FromArgb(65,34,43):Primary?MacTheme.Blue:Navigation?Color.FromArgb(35,57,51):Color.FromArgb(36,43,54);
