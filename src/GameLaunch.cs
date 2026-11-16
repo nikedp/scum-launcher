@@ -12,5 +12,7 @@ public static class GameLaunch {
         try{Data.Require(steam.Length>0,"Сначала запустите Steam и войдите в свой аккаунт, затем нажмите «Запустить SCUM».");}finally{foreach(Process process in steam)process.Dispose();}
         Process.Start(ClientInfo(game));
     }
+    // Ordinary launch through Steam (BattlEye, no -fileopenlog) for other servers; our PAKs must be parked first.
+    public static void StartVanilla(){Process.Start(new ProcessStartInfo("steam://rungameid/513710"){UseShellExecute=true});}
 }
 }

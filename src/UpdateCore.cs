@@ -15,9 +15,10 @@ public sealed class Channel {
 }
 public sealed class InstalledState { public bool subfolder;public string version,steamBuildId;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Change { public string name,oldHash,newHash,temporary;public bool oldExists,newExists; }
+public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Version="0.1.56",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Version="0.1.57",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -74,7 +75,7 @@ public sealed class UpdateService {
     public void Sync(Channel c,bool allowExperimental){
         Compatible(c);Data.Require(!c.experimental||allowExperimental,"Подтверди установку экспериментальной сборки.");StopCheck();NoLinks();Directory.CreateDirectory(Work);
         using(FileStream locked=new FileStream(Path.Combine(Work,"update.lock"),FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.None)){
-            Recover();InstalledState old=State();Data.Require(old==null||old.subfolder,"Обнаружена старая установка в корне Paks. Нажмите «Откатить файлы», затем повторите синхронизацию.");Data.Require(old==null||Verify(old),"Установленные файлы изменены вне лаунчера. Обновление остановлено, чтобы сохранить изменения.");
+            Recover();if(Parked){try{EnableCore();Log("Отключённые моды возвращены перед обновлением.");}catch(Exception ex){Log("Сохранённые файлы не подошли ("+ex.Message+"); будет новая загрузка.");DiscardParked();}}InstalledState old=State();if(old!=null&&old.subfolder&&AllMissing(old)){Log("Файлы сборки не найдены в игре — устанавливаем заново.");old=null;}else if(old!=null&&old.subfolder&&!Verify(old)&&Untouched(old))Log("Часть файлов сборки удалена — недостающее загрузится заново.");Data.Require(old==null||old.subfolder,"Обнаружена старая установка в корне Paks. Нажмите «Откатить версию», затем повторите синхронизацию.");Data.Require(old==null||Untouched(old),"Установленные файлы изменены вне лаунчера. Обновление остановлено, чтобы сохранить изменения.");
             string stage=Path.Combine(Work,"staging",Guid.NewGuid().ToString("N"));Directory.CreateDirectory(stage);Dictionary<string,string> files=new Dictionary<string,string>();
             foreach(AssetSpec a in c.files){Log("Загрузка "+a.name);string target=Path.Combine(stage,a.name);Source.Download(a,c.tag,target);Data.Require(new FileInfo(target).Length==a.bytes&&Data.Hash(target).Equals(a.sha256,StringComparison.OrdinalIgnoreCase),"Проверка загрузки не пройдена.");files[a.name]=Data.Hash(target);}
             string deltaFile=Path.Combine(stage,c.registryDelta.name);Source.Download(c.registryDelta,c.tag,deltaFile);Data.Require(new FileInfo(deltaFile).Length==c.registryDelta.bytes&&Data.Hash(deltaFile).Equals(c.registryDelta.sha256,StringComparison.OrdinalIgnoreCase),"Проверка дельты не пройдена.");
@@ -101,7 +102,39 @@ public sealed class UpdateService {
         foreach(Change c in j.changes){string target=Path.Combine(managed,c.name);if(c.oldExists){string tmp=target+".scumlab-restore-"+Guid.NewGuid().ToString("N");File.Copy(Path.Combine(tx,c.name),tmp);if(File.Exists(target))File.Replace(tmp,target,null);else File.Move(tmp,target);}else if(File.Exists(target))File.Delete(target);string pending=Path.Combine(managed,c.temporary);if(File.Exists(pending))File.Delete(pending);}
         if(j.oldState==null){if(File.Exists(StatePath))File.Delete(StatePath);}else Data.Write(StatePath,j.oldState);j.status="rolled-back";Data.Write(Path.Combine(tx,"journal.json"),j);
     }
+    // Mods on/off for other servers: our PAKs are moved (same volume, no copy) to SCUMLabLauncherData\parked and back.
+    // parked.json is written before the first move and removed after the last one, so an interrupted switch is completed by «Вернуть моды».
+    public string ParkedDir{get{return Path.Combine(Work,"parked");}}
+    string ParkedMarker{get{return Path.Combine(Work,"parked.json");}}
+    public bool Parked{get{return File.Exists(ParkedMarker);}}
+    public ParkedState ParkedInfo(){return Parked?Data.Read<ParkedState>(ParkedMarker):null;}
+    // Deleted files are fine (re-downloaded); a present file with a different hash is someone else's edit and stops the update.
+    public bool Untouched(InstalledState s){if(s.files==null)return false;foreach(var f in s.files){string file=Path.Combine(Managed(s.subfolder),f.Key);if(!Data.Owned(f.Key)||(File.Exists(file)&&!String.Equals(Data.Hash(file),f.Value,StringComparison.OrdinalIgnoreCase)))return false;}return true;}
+    public bool AllMissing(InstalledState s){foreach(string n in s.files.Keys)if(File.Exists(Path.Combine(Managed(s.subfolder),n)))return false;return true;}
+    public void Disable(){StopCheck();NoLinks();Data.Require(Directory.Exists(Work)&&State()!=null,"Сборка ещё не установлена лаунчером.");using(FileStream locked=new FileStream(Path.Combine(Work,"update.lock"),FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.None)){Recover();DisableCore();}}
+    public void Enable(){StopCheck();NoLinks();Data.Require(Parked,"Моды не отключены.");using(FileStream locked=new FileStream(Path.Combine(Work,"update.lock"),FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.None)){EnableCore();}}
+    void DisableCore(){
+        if(Parked){Log("Моды уже отключены.");return;}
+        InstalledState s=State();Data.Require(s!=null&&s.subfolder,"Сборка не установлена лаунчером (или старая установка в корне Paks — сначала «Откатить версию»).");
+        Data.Require(Untouched(s),"Файлы сборки изменены вне лаунчера. Нажмите «Синхронизировать», затем повторите.");Data.Require(!AllMissing(s),"Файлов сборки в игре нет — отключать нечего.");
+        string managed=Managed(true);Directory.CreateDirectory(ParkedDir);Data.Require((File.GetAttributes(ParkedDir)&FileAttributes.ReparsePoint)==0,"Папка хранения — ссылка/junction.");
+        foreach(string n in s.files.Keys){Data.Require(Data.Owned(n),"Недопустимое имя файла.");string stale=Path.Combine(ParkedDir,n);if(File.Exists(stale))File.Delete(stale);}
+        Dictionary<string,string> present=new Dictionary<string,string>();foreach(var f in s.files)if(File.Exists(Path.Combine(managed,f.Key)))present[f.Key]=f.Value;  // after a SCUM update or partial deletion only the files still present are parked
+        Data.Write(ParkedMarker,new ParkedState{version=s.version,files=present});
+        foreach(string n in present.Keys)File.Move(Path.Combine(managed,n),Path.Combine(ParkedDir,n));
+        if(Directory.Exists(managed)&&Directory.GetFileSystemEntries(managed).Length==0)Directory.Delete(managed);
+        Log("Моды отключены: "+present.Count+" файлов перенесено в "+ParkedDir);
+    }
+    void EnableCore(){
+        ParkedState p=ParkedInfo();Data.Require(p!=null&&p.files!=null,"Моды не отключены.");string managed=Managed(true);Directory.CreateDirectory(managed);
+        foreach(var f in p.files){Data.Require(Data.Owned(f.Key),"Недопустимое имя файла.");string src=Path.Combine(ParkedDir,f.Key),dst=Path.Combine(managed,f.Key);
+            if(File.Exists(dst))Data.Require(String.Equals(Data.Hash(dst),f.Value,StringComparison.OrdinalIgnoreCase),"В папке игры уже лежит другой файл "+f.Key+". Нажмите «Синхронизировать».");
+            else Data.Require(File.Exists(src)&&String.Equals(Data.Hash(src),f.Value,StringComparison.OrdinalIgnoreCase),"Сохранённый файл отсутствует или повреждён: "+f.Key+". Нажмите «Синхронизировать» — сборка загрузится заново.");}
+        foreach(var f in p.files){string src=Path.Combine(ParkedDir,f.Key),dst=Path.Combine(managed,f.Key);if(!File.Exists(dst))File.Move(src,dst);else if(File.Exists(src))File.Delete(src);}
+        File.Delete(ParkedMarker);Log("Моды возвращены в игру: "+p.files.Count+" файлов.");
+    }
+    void DiscardParked(){ParkedState p=null;try{p=ParkedInfo();}catch{}if(p!=null&&p.files!=null)foreach(string n in p.files.Keys)if(Data.Owned(n)&&File.Exists(Path.Combine(ParkedDir,n)))File.Delete(Path.Combine(ParkedDir,n));if(File.Exists(ParkedMarker))File.Delete(ParkedMarker);}
     public void Recover(){if(!Directory.Exists(Transactions))return;foreach(string dir in Directory.GetDirectories(Transactions)){string file=Path.Combine(dir,"journal.json");if(File.Exists(file)){Journal j=Data.Read<Journal>(file);if(j.status=="pending"){StopCheck();Restore(dir,j);Log("Восстановлена незавершённая установка.");}}}}
-    public void Rollback(){StopCheck();NoLinks();Data.Require(Directory.Exists(Work),"Нет установки для отката.");using(FileStream locked=new FileStream(Path.Combine(Work,"update.lock"),FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.None)){Recover();string[] dirs=Directory.GetDirectories(Transactions);Array.Sort(dirs,StringComparer.Ordinal);Array.Reverse(dirs);foreach(string dir in dirs){string file=Path.Combine(dir,"journal.json");if(File.Exists(file)){Journal j=Data.Read<Journal>(file);if(j.status=="applied"){Restore(dir,j);Log("Предыдущие файлы восстановлены.");return;}}}throw new InvalidOperationException("Нет резервной копии для отката.");}}
+    public void Rollback(){StopCheck();NoLinks();Data.Require(Directory.Exists(Work),"Нет установки для отката.");Data.Require(!Parked,"Моды сейчас отключены. Сначала нажмите «Вернуть моды».");using(FileStream locked=new FileStream(Path.Combine(Work,"update.lock"),FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.None)){Recover();string[] dirs=Directory.GetDirectories(Transactions);Array.Sort(dirs,StringComparer.Ordinal);Array.Reverse(dirs);foreach(string dir in dirs){string file=Path.Combine(dir,"journal.json");if(File.Exists(file)){Journal j=Data.Read<Journal>(file);if(j.status=="applied"){Restore(dir,j);Log("Предыдущие файлы восстановлены.");return;}}}throw new InvalidOperationException("Нет резервной копии для отката.");}}
 }
 }
