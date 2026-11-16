@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.47",
-  "tag": "v0.1.47",
+  "version": "0.1.48",
+  "tag": "v0.1.48",
   "minLauncherVersion": "0.1.17",
   "clientSteamBuildId": "26621909",
   "serverSteamBuildId": "26621903",
@@ -24,8 +24,8 @@
     },
     {
       "name": "pakchunk960-SCUMLabMH6_P.pak",
-      "bytes": 8708774,
-      "sha256": "2990ac353ecddd8c348a922b0d4d97f0661ac7319e70e6eb222715bef4db99ec"
+      "bytes": 8709162,
+      "sha256": "c24cc33fb4eb436a4969f8d8a960a8c848fd2d2938ef20dd514424af7078bede"
     }
   ],
   "registryDelta": {
