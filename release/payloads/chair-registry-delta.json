@@ -8391,6 +8391,104 @@
       "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
       "chunks": [],
       "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Engine.BPC_SCUMLab_MH6_Engine",
+      "assetClass": "Blueprint",
+      "tags": {
+        "GeneratedClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Engine.BPC_SCUMLab_MH6_Engine_C'"
+        },
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Engine.BPC_Kinglet_Duster_Engine_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_EngineBlock'"
+        },
+        "ClassFlags": {
+          "storageType": "AnsiString",
+          "value": "12847120"
+        },
+        "BlueprintType": {
+          "storageType": "AnsiString",
+          "value": "BPTYPE_Normal"
+        },
+        "IsDataOnly": {
+          "storageType": "AnsiString",
+          "value": "True"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "NativeComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintComponents": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "BlueprintPath": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Engine"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Engine"
+        },
+        "AttachmentItemClass": {
+          "storageType": "AnsiString",
+          "value": "None"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Engine",
+      "assetName": "BPC_SCUMLab_MH6_Engine",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
+    },
+    {
+      "objectPath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Engine.BPC_SCUMLab_MH6_Engine_C",
+      "assetClass": "BlueprintGeneratedClass",
+      "tags": {
+        "ParentClass": {
+          "storageType": "NumberlessExportPath",
+          "value": "BlueprintGeneratedClass'/Game/ConZ_Files/Vehicles/Airplane/Duster/Attachments/BPC_Kinglet_Duster_Engine.BPC_Kinglet_Duster_Engine_C'"
+        },
+        "NativeParentClass": {
+          "storageType": "AnsiString",
+          "value": "Class'/Script/SCUM.VehicleAttachment_EngineBlock'"
+        },
+        "NumReplicatedProperties": {
+          "storageType": "AnsiString",
+          "value": "0"
+        },
+        "PrimaryAssetType": {
+          "storageType": "NumberlessName",
+          "value": "VehicleAttachment"
+        },
+        "PrimaryAssetName": {
+          "storageType": "NumberlessName",
+          "value": "BPC_SCUMLab_MH6_Engine"
+        },
+        "ModuleName": {
+          "storageType": "AnsiString",
+          "value": "BPC_SCUMLab_MH6_Engine"
+        }
+      },
+      "packageName": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments/BPC_SCUMLab_MH6_Engine",
+      "assetName": "BPC_SCUMLab_MH6_Engine_C",
+      "packagePath": "/Game/ConZ_Files/Vehicles/Airplane/Duster/SCUMLab/Attachments",
+      "chunks": [],
+      "packageFlags": 262144
     }
   ],
   "requirements": [
