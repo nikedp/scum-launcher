@@ -18,7 +18,7 @@ public sealed class Change { public string name,oldHash,newHash,temporary;public
 public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Version="0.2.0",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.1",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -35,15 +35,20 @@ public static class Data {
     }
 }
 public interface IReleaseSource { Channel Channel();void Download(AssetSpec asset,string tag,string destination); }
-public sealed class GitHubSource:IReleaseSource {
-    const string Base="https://github.com/"+Data.Repo+"/releases/";
-    sealed class TimedClient:WebClient { protected override WebRequest GetWebRequest(Uri address){WebRequest r=base.GetWebRequest(address);r.Timeout=60000;HttpWebRequest h=r as HttpWebRequest;if(h!=null)h.ReadWriteTimeout=60000;return r;} }
+/// Mod payloads (PAK, registry delta) come from our own host: <Feed>channel.json and <Feed>files/<tag>/<name>.
+/// GitHub keeps only the launcher itself (self-update).
+public sealed class FeedSource:IReleaseSource {
+    readonly string Base;
+    public FeedSource():this(Data.Feed){}
+    internal FeedSource(string feed){Data.Require(feed!=null&&feed.StartsWith("https://",StringComparison.Ordinal)&&feed.EndsWith("/",StringComparison.Ordinal),"Некорректный адрес сервера обновлений.");Base=feed;}
+    sealed class TimedClient:WebClient { protected override WebRequest GetWebRequest(Uri address){WebRequest r=base.GetWebRequest(address);r.Timeout=60000;HttpWebRequest h=r as HttpWebRequest;if(h!=null){h.ReadWriteTimeout=60000;h.CachePolicy=new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);}return r;} }
     static WebClient Client(){ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;WebClient c=new TimedClient();c.Headers[HttpRequestHeader.UserAgent]="SCUMLabLauncher/"+Data.Version;return c;}
-    public Channel Channel(){using(WebClient c=Client()){byte[] b=c.DownloadData(Base+"latest/download/channel.json");Data.Require(b.Length<1024*1024,"Манифест слишком большой.");Channel value=Data.Json().Deserialize<Channel>(Encoding.UTF8.GetString(b).TrimStart('\ufeff'));Data.Validate(value);return value;}}
+    public Channel Channel(){using(WebClient c=Client()){byte[] b=c.DownloadData(Base+"channel.json?t="+DateTime.UtcNow.Ticks);Data.Require(b.Length<1024*1024,"Манифест слишком большой.");Channel value=Data.Json().Deserialize<Channel>(Encoding.UTF8.GetString(b).TrimStart('\ufeff'));Data.Validate(value);return value;}}
     /// Progress of the current download: asset name, bytes received, total bytes. Called at most ~5 times per second.
     public Action<string,long,long> Progress;
-    public void Download(AssetSpec a,string tag,string destination){Data.Require(Regex.IsMatch(tag,"^v[0-9A-Za-z._-]+$"),"Некорректный тег.");
-        ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;HttpWebRequest r=(HttpWebRequest)WebRequest.Create(Base+"download/"+Uri.EscapeDataString(tag)+"/"+Uri.EscapeDataString(a.name));r.Timeout=60000;r.ReadWriteTimeout=60000;r.UserAgent="SCUMLabLauncher/"+Data.Version;r.AllowAutoRedirect=true;
+    internal string FileUrl(AssetSpec a,string tag){Data.Require(Regex.IsMatch(tag??"","^v[0-9A-Za-z._-]+$"),"Некорректный тег.");return Base+"files/"+Uri.EscapeDataString(tag)+"/"+Uri.EscapeDataString(a.name);}
+    public void Download(AssetSpec a,string tag,string destination){
+        ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;HttpWebRequest r=(HttpWebRequest)WebRequest.Create(FileUrl(a,tag));r.Timeout=60000;r.ReadWriteTimeout=60000;r.UserAgent="SCUMLabLauncher/"+Data.Version;r.AllowAutoRedirect=true;
         Action<string,long,long> report=Progress;long done=0;DateTime next=DateTime.MinValue;
         using(WebResponse response=r.GetResponse())using(Stream input=response.GetResponseStream())using(FileStream output=new FileStream(destination,FileMode.Create,FileAccess.Write,FileShare.None,1<<16)){
             byte[] buffer=new byte[1<<16];int n;if(report!=null)report(a.name,0,a.bytes);
