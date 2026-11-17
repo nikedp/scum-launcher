@@ -2,11 +2,13 @@ name: Build, test and release
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: scum-launcher-release
+  group: scum-launcher-${{ github.event_name == 'pull_request' && github.ref || 'release' }}
   cancel-in-progress: false
 jobs:
   windows:
@@ -19,7 +21,16 @@ jobs:
       - name: Exercise running EXE replacement
         shell: pwsh
         run: ./test-self-update.ps1
+      - name: Upload build for review
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scum-launcher-build
+          path: |
+            dist/SCUMLabLauncher.exe
+            dist/SCUMLabSetup.exe
       - name: Package and publish a new release
+        if: github.event_name != 'pull_request'
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
