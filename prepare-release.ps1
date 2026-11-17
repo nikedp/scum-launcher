@@ -23,7 +23,9 @@ $exe=Join-Path $out 'SCUMLabLauncher.exe'
 if (!(Test-Path -LiteralPath $exe)) { throw 'Build the launcher first' }
 $archive=Join-Path $out 'SCUMLabLauncher.zip'
 Compress-Archive -LiteralPath @($exe,(Join-Path $root 'README.md')) -DestinationPath $archive -Force
-$assets=@($archive,$manifestPath)+(Get-ChildItem -LiteralPath (Join-Path $root 'release/payloads') -File | ForEach-Object FullName)
+$setup=Join-Path $out 'SCUMLabSetup.exe'
+if ($Publish -and !(Test-Path -LiteralPath $setup)) { throw 'Build the installer first (build.ps1 -Installer)' }
+$assets=@($archive,$manifestPath)+@(Get-ChildItem -LiteralPath $setup -ErrorAction SilentlyContinue | ForEach-Object FullName)+(Get-ChildItem -LiteralPath (Join-Path $root 'release/payloads') -File | ForEach-Object FullName)
 $checksums=Join-Path $out 'checksums.txt'
 $assets | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash.ToLowerInvariant()+'  '+(Split-Path -Leaf $_) } | Set-Content -LiteralPath $checksums -Encoding utf8
 if ($Publish) {

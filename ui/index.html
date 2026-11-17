@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'">
+<title>SCUM Lab Launcher</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="app">
+  <header class="titlebar" id="titlebar">
+    <div class="brand" data-drag>
+      <span class="mark" aria-hidden="true"><span></span></span>
+      <span class="brand-name">SCUM/LAB</span>
+      <span class="brand-sub">ЛАУНЧЕР <span id="version">v—</span></span>
+    </div>
+    <div class="drag-fill" data-drag></div>
+    <div class="window-buttons">
+      <button class="win" id="win-min" aria-label="Свернуть"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6h8"/></svg></button>
+      <button class="win" id="win-max" aria-label="Развернуть"><svg viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="2" width="8" height="8"/></svg></button>
+      <button class="win close" id="win-close" aria-label="Закрыть"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button>
+    </div>
+  </header>
+
+  <div class="body">
+    <nav class="nav" aria-label="Разделы">
+      <button class="nav-item active" data-page="home">Главная</button>
+      <button class="nav-item" data-page="mods">Моды</button>
+      <button class="nav-item" data-page="server">Сервер</button>
+      <button class="nav-item" data-page="events">События</button>
+      <button class="nav-item" data-page="settings">Настройки</button>
+      <div class="nav-fill"></div>
+      <div class="client-box">
+        <span class="label">КЛИЕНТ</span>
+        <span id="client-build" class="mono-strong">—</span>
+        <span id="client-note" class="dim">папка не выбрана</span>
+      </div>
+    </nav>
+
+    <main class="main">
+      <!-- ГЛАВНАЯ -->
+      <section class="page active" id="page-home">
+        <div class="grid-home">
+          <div class="col">
+            <div class="card hero corners">
+              <div class="hero-top">
+                <div class="hero-text">
+                  <span class="label">СЕРВЕР // SCUM LAB</span>
+                  <span class="hero-title" id="server-title">ОСТРОВ · ПРОВЕРЯЕМ…</span>
+                  <span class="dim" id="server-line">—</span>
+                </div>
+                <div class="hero-count">
+                  <span class="count" id="server-players">—</span>
+                  <span class="label">ИГРОКОВ</span>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <button class="btn-play" id="play" disabled>ИГРАТЬ</button>
+                <button class="btn-square" id="check" title="Проверить обновления" aria-label="Проверить обновления">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="card sync">
+              <div class="row-between">
+                <span class="label">СИНХРОНИЗАЦИЯ</span>
+                <span class="label accent" id="sync-count"></span>
+              </div>
+              <div class="status-line">
+                <span class="tone" id="status-tone" aria-hidden="true"></span>
+                <div class="status-text">
+                  <span class="status-title" id="status-title">Готов к проверке</span>
+                  <span class="dim small" id="status-text">Нажмите кнопку проверки обновлений.</span>
+                </div>
+              </div>
+              <div class="progress-block hidden" id="progress-block">
+                <div class="row-between"><span class="mono-strong ellipsis" id="progress-file">—</span><span id="progress-pct">0%</span></div>
+                <div class="bar"><div class="bar-fill" id="progress-fill"></div></div>
+                <div class="row-between dim small"><span id="progress-bytes">—</span><span id="progress-speed">—</span><span id="progress-eta">—</span></div>
+              </div>
+              <div class="sync-actions">
+                <button class="btn" id="sync">СИНХРОНИЗИРОВАТЬ</button>
+                <span class="dim small busy-label hidden" id="busy-label"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <span class="label">СОБЫТИЯ // ВЕДУЩИЙ</span>
+              <div class="event muted-event">
+                <span class="event-time">СКОРО</span>
+                <span class="event-title">Ивенты сервера</span>
+                <span class="dim small">Здесь появятся аирдропы, задания и объявления ведущего.</span>
+              </div>
+            </div>
+            <div class="card grow">
+              <div class="row-between">
+                <span class="label">МОДЫ</span>
+                <span class="label" id="mods-badge">—</span>
+              </div>
+              <ul class="mod-list" id="home-mods"></ul>
+              <span class="dim small" id="home-mods-hint"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- МОДЫ -->
+      <section class="page" id="page-mods">
+        <h1 class="page-title">МОДЫ</h1>
+        <div class="card">
+          <div class="row-between">
+            <div class="stack">
+              <span class="label">СОСТОЯНИЕ</span>
+              <span class="big-state" id="mods-state">—</span>
+              <span class="dim small" id="mods-hint"></span>
+            </div>
+            <div class="buttons">
+              <button class="btn outline" id="rollback">ОТКАТИТЬ ВЕРСИЮ</button>
+              <button class="btn" id="toggle-mods" disabled>ОТКЛЮЧИТЬ МОДЫ</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <span class="label">УСТАНОВЛЕННЫЕ ФАЙЛЫ</span>
+          <ul class="mod-list wide" id="mods-files"></ul>
+        </div>
+        <p class="dim small note">Пока моды лежат в Paks\SCUMLab, игра загружает их везде, и на чужие серверы с BattlEye не пустит. Для других серверов — «Отключить моды»: файлы переносятся рядом с игрой и возвращаются одной кнопкой со сверкой SHA256.</p>
+      </section>
+
+      <!-- СЕРВЕР -->
+      <section class="page" id="page-server">
+        <h1 class="page-title">СЕРВЕР</h1>
+        <div class="card corners">
+          <div class="row-between">
+            <div class="stack">
+              <span class="label">АДРЕС ДЛЯ DIRECT CONNECT</span>
+              <span class="hero-title small-hero" id="srv-address">—</span>
+              <span class="dim" id="srv-state">—</span>
+            </div>
+            <div class="buttons">
+              <button class="btn outline" id="srv-refresh">ОБНОВИТЬ</button>
+              <button class="btn" id="srv-copy">КОПИРОВАТЬ</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <label class="label" for="srv-input">СМЕНИТЬ АДРЕС</label>
+          <div class="field-row">
+            <input id="srv-input" class="input" spellcheck="false" placeholder="хост:порт">
+            <button class="btn outline" id="srv-save">СОХРАНИТЬ</button>
+          </div>
+          <span class="dim small">Число игроков появится, когда на сервере заработает мост SCUM Lab.</span>
+        </div>
+      </section>
+
+      <!-- СОБЫТИЯ -->
+      <section class="page" id="page-events">
+        <h1 class="page-title">СОБЫТИЯ</h1>
+        <div class="card corners empty">
+          <span class="hero-title small-hero">ВЕДУЩИЙ ЕЩЁ НЕ НА СВЯЗИ</span>
+          <span class="dim">Когда на сервере заработает ИИ-ведущий, здесь будут аирдропы под охраной, задания, объявления и история событий.</span>
+        </div>
+      </section>
+
+      <!-- НАСТРОЙКИ -->
+      <section class="page" id="page-settings">
+        <h1 class="page-title">НАСТРОЙКИ</h1>
+        <div class="card">
+          <label class="label" for="root-input">ПАПКА SCUM</label>
+          <div class="field-row">
+            <input id="root-input" class="input" spellcheck="false" placeholder="D:\SteamLibrary\steamapps\common\SCUM">
+            <button class="btn outline" id="root-save">ПРИМЕНИТЬ</button>
+          </div>
+          <div class="buttons left">
+            <button class="btn outline" id="root-detect">НАЙТИ ИГРУ</button>
+            <button class="btn outline" id="root-deep">ИСКАТЬ НА ДИСКАХ</button>
+            <button class="btn outline" id="root-browse">ВЫБРАТЬ…</button>
+            <button class="btn outline" id="root-open">ОТКРЫТЬ ПАПКУ</button>
+          </div>
+        </div>
+        <div class="card">
+          <label class="check">
+            <input type="checkbox" id="experimental">
+            <span class="box" aria-hidden="true"></span>
+            <span>Разрешить экспериментальную сборку</span>
+          </label>
+          <span class="dim small">Сейчас все релизы SCUM Lab экспериментальные: без этой галочки синхронизация не установит сборку.</span>
+        </div>
+        <div class="card">
+          <span class="label">ОЧИСТКА КЛИЕНТА И КЭША</span>
+          <span class="dim small">Переносит %LOCALAPPDATA%\SCUM в резервную копию при сбоях клиента. Настройки и одиночные сохранения остаются в копии.</span>
+          <div class="buttons left">
+            <button class="btn danger" id="client-clear">ОЧИСТИТЬ</button>
+            <button class="btn outline" id="client-backups">КОПИИ</button>
+          </div>
+        </div>
+        <div class="card">
+          <span class="label">ЛАУНЧЕР</span>
+          <div class="row-between">
+            <span class="mono-strong" id="launcher-version">—</span>
+            <div class="buttons">
+              <button class="btn outline" id="github">GITHUB</button>
+              <button class="btn" id="launcher-update">ОБНОВИТЬ ЛАУНЧЕР</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="log" id="log">
+        <button class="log-head" id="log-toggle" aria-expanded="false">
+          <span class="label">ЖУРНАЛ</span>
+          <span class="log-last ellipsis" id="log-last">—</span>
+          <span class="chev" aria-hidden="true">▴</span>
+        </button>
+        <div class="log-body" id="log-body"></div>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<div class="modal-backdrop hidden" id="modal">
+  <div class="modal corners" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <span class="hero-title small-hero" id="modal-title"></span>
+    <div class="dim" id="modal-text"></div>
+    <ul class="choice-list hidden" id="modal-list"></ul>
+    <div class="buttons">
+      <button class="btn outline" id="modal-cancel">ОТМЕНА</button>
+      <button class="btn" id="modal-ok">ОК</button>
+    </div>
+  </div>
+</div>
+<div class="toast hidden" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>

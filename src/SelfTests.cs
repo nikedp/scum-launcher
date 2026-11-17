@@ -64,6 +64,7 @@ public static class SelfTests {
     public static int Run(string root){
         Directory.CreateDirectory(root);Data.Require(Directory.GetFileSystemEntries(root).Length==0,"Test directory must be empty");try{
             DiscoveryTests(Path.Combine(root,"discovery"));
+            foreach(string r in new[]{"ui/index.html","ui/app.css","ui/app.js","lib/WebView2Loader.dll","lib/Microsoft.Web.WebView2.Core.dll","lib/Microsoft.Web.WebView2.WinForms.dll"})Expect(WebRuntime.Resource(r)!=null,"Embedded resource "+r);passed.Add("Web UI and WebView2 SDK are embedded in the EXE");
             LegacyLayoutTests(Path.Combine(root,"l"));
             MaintenanceTests(Path.Combine(root,"m"));
             ParkTests(Path.Combine(root,"p"));

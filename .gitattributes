@@ -1,3 +1,4 @@
 * text=auto eol=lf
 release/payloads/* -text
 release/parts/* -text
+*.iss text eol=crlf
