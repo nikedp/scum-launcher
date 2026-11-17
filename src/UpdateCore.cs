@@ -18,7 +18,7 @@ public sealed class Change { public string name,oldHash,newHash,temporary;public
 public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Version="0.1.62",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Version="0.2.0",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -40,7 +40,16 @@ public sealed class GitHubSource:IReleaseSource {
     sealed class TimedClient:WebClient { protected override WebRequest GetWebRequest(Uri address){WebRequest r=base.GetWebRequest(address);r.Timeout=60000;HttpWebRequest h=r as HttpWebRequest;if(h!=null)h.ReadWriteTimeout=60000;return r;} }
     static WebClient Client(){ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;WebClient c=new TimedClient();c.Headers[HttpRequestHeader.UserAgent]="SCUMLabLauncher/"+Data.Version;return c;}
     public Channel Channel(){using(WebClient c=Client()){byte[] b=c.DownloadData(Base+"latest/download/channel.json");Data.Require(b.Length<1024*1024,"Манифест слишком большой.");Channel value=Data.Json().Deserialize<Channel>(Encoding.UTF8.GetString(b).TrimStart('\ufeff'));Data.Validate(value);return value;}}
-    public void Download(AssetSpec a,string tag,string destination){Data.Require(Regex.IsMatch(tag,"^v[0-9A-Za-z._-]+$"),"Некорректный тег.");using(WebClient c=Client())c.DownloadFile(Base+"download/"+Uri.EscapeDataString(tag)+"/"+Uri.EscapeDataString(a.name),destination);Data.Require(new FileInfo(destination).Length==a.bytes&&String.Equals(Data.Hash(destination),a.sha256,StringComparison.OrdinalIgnoreCase),"Контрольная сумма загрузки не совпала: "+a.name);}
+    /// Progress of the current download: asset name, bytes received, total bytes. Called at most ~5 times per second.
+    public Action<string,long,long> Progress;
+    public void Download(AssetSpec a,string tag,string destination){Data.Require(Regex.IsMatch(tag,"^v[0-9A-Za-z._-]+$"),"Некорректный тег.");
+        ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;HttpWebRequest r=(HttpWebRequest)WebRequest.Create(Base+"download/"+Uri.EscapeDataString(tag)+"/"+Uri.EscapeDataString(a.name));r.Timeout=60000;r.ReadWriteTimeout=60000;r.UserAgent="SCUMLabLauncher/"+Data.Version;r.AllowAutoRedirect=true;
+        Action<string,long,long> report=Progress;long done=0;DateTime next=DateTime.MinValue;
+        using(WebResponse response=r.GetResponse())using(Stream input=response.GetResponseStream())using(FileStream output=new FileStream(destination,FileMode.Create,FileAccess.Write,FileShare.None,1<<16)){
+            byte[] buffer=new byte[1<<16];int n;if(report!=null)report(a.name,0,a.bytes);
+            while((n=input.Read(buffer,0,buffer.Length))>0){output.Write(buffer,0,n);done+=n;Data.Require(done<=a.bytes,"Загрузка больше ожидаемого размера: "+a.name);if(report!=null&&DateTime.UtcNow>=next){report(a.name,done,a.bytes);next=DateTime.UtcNow.AddMilliseconds(200);}}
+            if(report!=null)report(a.name,done,a.bytes);}
+        Data.Require(new FileInfo(destination).Length==a.bytes&&String.Equals(Data.Hash(destination),a.sha256,StringComparison.OrdinalIgnoreCase),"Контрольная сумма загрузки не совпала: "+a.name);}
 }
 public sealed class GameInstall {
     public string Root,Paks,Exe,Manifest,BuildId;public bool Server;

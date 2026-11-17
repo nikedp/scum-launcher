@@ -129,6 +129,7 @@ public sealed class LauncherForm:Form {
     async Task Run(string title,Func<Task> work){if(busy)return;busy=true;SetStatus(title,"Подготовка и проверка файлов. Это может занять некоторое время.",0);progress.Visible=true;check.Enabled=sync.Enabled=rollback.Enabled=browse.Enabled=findGame.Enabled=folder.Enabled=experimental.Enabled=clearClient.Enabled=clientBackups.Enabled=updateLauncher.Enabled=modeToggle.Enabled=false;play.Enabled=false;try{await work();}catch(Exception ex){Fail(ex);}finally{busy=false;progress.Visible=false;check.Enabled=sync.Enabled=rollback.Enabled=browse.Enabled=findGame.Enabled=folder.Enabled=experimental.Enabled=clearClient.Enabled=clientBackups.Enabled=updateLauncher.Enabled=true;modeToggle.Enabled=modeAllowed;if(closingForUpdate)Close();}}
     protected override void WndProc(ref Message m){const int hit=0x84;if(m.Msg==hit&&WindowState==FormWindowState.Normal){Point p=PointToClient(new Point(unchecked((short)(long)m.LParam),unchecked((short)((long)m.LParam>>16))));int edge=7;bool left=p.X<edge,right=p.X>=Width-edge,top=p.Y<edge,bottom=p.Y>=Height-edge;int value=top?(left?13:right?14:12):bottom?(left?16:right?17:15):left?10:right?11:0;if(value!=0){m.Result=new IntPtr(value);return;}}base.WndProc(ref m);}
     protected override CreateParams CreateParams{get{CreateParams cp=base.CreateParams;cp.ClassStyle|=0x20000;return cp;}}
+    public void Notice(string text){Log(text);}
     public void Snapshot(string file,bool compact=false){capturingSnapshot=true;ShowInTaskbar=false;StartPosition=FormStartPosition.Manual;Location=new Point(-32000,-32000);if(compact)Size=new Size(920,680);CreateControl();Show();Application.DoEvents();using(Bitmap image=new Bitmap(Width,Height)){DrawToBitmap(image,new Rectangle(0,0,Width,Height));image.Save(file,System.Drawing.Imaging.ImageFormat.Png);}Close();}
 }
 internal static class Program {
@@ -137,7 +138,9 @@ internal static class Program {
         if(args.Length>0&&args[0]=="--self-test")return SelfTests.Run(args.Length>1?args[1]:Path.Combine(Path.GetTempPath(),"SCUMLab-self-test-"+Guid.NewGuid().ToString("N")));
         if(args.Length==4&&args[0]=="--registry-pak"){RegistryPak.Write(args[3],RegistryMerge.Merge(File.ReadAllBytes(args[1]),Data.Read<RegistryDelta>(args[2])));return 0;}
         Application.EnableVisualStyles();Application.SetCompatibleTextRenderingDefault(false);
-        if(args.Length==2&&(args[0]=="--screenshot"||args[0]=="--screenshot-compact")){new LauncherForm().Snapshot(args[1],args[0]=="--screenshot-compact");return 0;}Application.Run(new LauncherForm());return 0;
+        if(args.Length==2&&(args[0]=="--screenshot"||args[0]=="--screenshot-compact")){new LauncherForm().Snapshot(args[1],args[0]=="--screenshot-compact");return 0;}bool dev=Array.IndexOf(args,"--devtools")>=0;
+        if(Array.IndexOf(args,"--classic")<0){string runtime=null;try{runtime=WebRuntime.Prepare();}catch{}if(runtime!=null){WebRuntime.Run(dev);return 0;}}
+        LauncherForm classic=new LauncherForm();classic.Shown+=(s,e)=>classic.Notice("Новый интерфейс недоступен: на ПК нет Microsoft Edge WebView2 Runtime. Установите его (бесплатно, с сайта Microsoft) или переустановите лаунчер через SCUMLabSetup.exe — он поставит WebView2 сам.");Application.Run(classic);return 0;
     }catch(Exception ex){if(args.Length>0){Console.Error.WriteLine(ex.ToString());return 1;}MessageBox.Show(ex.Message,"SCUM Lab Launcher",MessageBoxButtons.OK,MessageBoxIcon.Error);return 1;}}
 }
 }
