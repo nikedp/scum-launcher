@@ -81,6 +81,7 @@ public sealed class LauncherBackend {
             case "client.clear":return await Operation("Очищаем клиентские данные…",ClearClient);
             case "client.backups":return OpenBackups();
             case "launcher.update":return await Operation("Проверяем версию лаунчера…",UpdateLauncher);
+            case "launcher.check":return await LauncherCheck();
             case "open":OpenExternal(Arg(a,"url"));return null;
             default:throw new InvalidOperationException("Неизвестная команда: "+cmd);
         }
@@ -218,6 +219,13 @@ public sealed class LauncherBackend {
     object OpenBackups(){
         string path=new ClientMaintenance().BackupRoot;Data.Require(Directory.Exists(path),"Резервных копий пока нет.");
         Process.Start(new ProcessStartInfo("explorer.exe","\""+path+"\""){UseShellExecute=true});return null;
+    }
+
+    /// Silent check for a newer launcher on GitHub (no busy state): {current, latest, newer}; errors -> newer=false, error text.
+    async Task<object> LauncherCheck(){
+        try{LauncherRelease release=await Task.Run(()=>new SelfUpdater().Latest());
+            return new Dictionary<string,object>{{"current",Data.Version},{"latest",release.tag_name},{"newer",SelfUpdater.IsNewer(release.tag_name,Data.Version)}};}
+        catch(Exception ex){return new Dictionary<string,object>{{"current",Data.Version},{"latest",null},{"newer",false},{"error",ex.Message}};}
     }
 
     async Task<object> UpdateLauncher(){
