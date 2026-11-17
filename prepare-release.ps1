@@ -4,20 +4,10 @@ $root=$PSScriptRoot
 $manifestPath=Join-Path $root 'release/channel.json'
 $manifest=Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
 if ($manifest.schemaVersion -ne 1 -or $manifest.tag -notmatch '^v[0-9A-Za-z._-]+$') { throw 'Invalid release manifest' }
-# Payloads above GitHub's 100 MB file limit (MH-6 PAK) are kept as release/parts/<name>.part0..N and joined here.
-foreach ($file in @($manifest.files)) {
-    $local=Join-Path $root ('release/payloads/'+$file.name)
-    if (Test-Path -LiteralPath $local) { continue }
-    $parts=@(Get-ChildItem -LiteralPath (Join-Path $root 'release/parts') -Filter ($file.name+'.part*') -File -ErrorAction SilentlyContinue | Sort-Object Name)
-    if ($parts.Count -eq 0) { throw ('Payload missing: '+$file.name) }
-    $out=[IO.File]::Create($local)
-    try { foreach ($p in $parts) { $in=[IO.File]::OpenRead($p.FullName); try { $in.CopyTo($out) } finally { $in.Dispose() } } } finally { $out.Dispose() }
-}
-foreach ($file in (@($manifest.files)+@($manifest.registryDelta))) {
-    if ($file.name -notmatch '^[A-Za-z0-9_.-]+$') { throw 'Unsafe payload name' }
-    $local=Join-Path $root ('release/payloads/'+$file.name)
-    if ((Get-Item -LiteralPath $local).Length -ne $file.bytes -or (Get-FileHash -LiteralPath $local -Algorithm SHA256).Hash -ne $file.sha256) { throw ('Payload verification failed: '+$file.name) }
-}
+# Mod payloads (PAK, registry delta) are hosted on our own server (Data.Feed, published by tools\claude\Publish-Feed.ps1
+# in the SCUMLab project); GitHub releases carry only the launcher. release/channel.json is a gate manifest:
+# launchers older than its minLauncherVersion (read from GitHub by 0.2.0 and earlier) are told to update first.
+if ($manifest.minLauncherVersion -ne $manifest.version) { throw 'Gate manifest: minLauncherVersion must equal version' }
 $out=Join-Path $root 'dist'
 $exe=Join-Path $out 'SCUMLabLauncher.exe'
 if (!(Test-Path -LiteralPath $exe)) { throw 'Build the launcher first' }
@@ -25,7 +15,7 @@ $archive=Join-Path $out 'SCUMLabLauncher.zip'
 Compress-Archive -LiteralPath @($exe,(Join-Path $root 'README.md')) -DestinationPath $archive -Force
 $setup=Join-Path $out 'SCUMLabSetup.exe'
 if ($Publish -and !(Test-Path -LiteralPath $setup)) { throw 'Build the installer first (build.ps1 -Installer)' }
-$assets=@($archive,$manifestPath)+@(Get-ChildItem -LiteralPath $setup -ErrorAction SilentlyContinue | ForEach-Object FullName)+(Get-ChildItem -LiteralPath (Join-Path $root 'release/payloads') -File | ForEach-Object FullName)
+$assets=@($archive,$manifestPath)+@(Get-ChildItem -LiteralPath $setup -ErrorAction SilentlyContinue | ForEach-Object FullName)
 $checksums=Join-Path $out 'checksums.txt'
 $assets | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash.ToLowerInvariant()+'  '+(Split-Path -Leaf $_) } | Set-Content -LiteralPath $checksums -Encoding utf8
 if ($Publish) {

@@ -1,5 +1,5 @@
 ﻿; SCUM Lab Launcher — установщик (Inno Setup 6).
-; Сборка: iscc /DAppVersion=0.2.0 installer\SCUMLabSetup.iss  (build.ps1 -Installer делает это сам)
+; Сборка: iscc /DAppVersion=0.2.1 installer\SCUMLabSetup.iss  (build.ps1 -Installer делает это сам)
 ; Ставится в профиль пользователя без прав администратора, чтобы самообновление лаунчера могло заменять EXE.
 
 #ifndef AppVersion

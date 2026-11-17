@@ -55,7 +55,7 @@ public sealed class LauncherBackend {
 
     static string Friendly(Exception ex){
         if(ex is AggregateException&&ex.InnerException!=null)ex=ex.InnerException;
-        return ex is System.Net.WebException?"Не удалось связаться с GitHub. Проверьте подключение и повторите попытку.":ex.Message;
+        return ex is System.Net.WebException?"Не удалось связаться с сервером обновлений. Проверьте подключение и повторите попытку.":ex.Message;
     }
     static string Arg(Dictionary<string,object> a,string key){object v;return a.TryGetValue(key,out v)&&v!=null?Convert.ToString(v):null;}
     static bool Flag(Dictionary<string,object> a,string key){object v;return a.TryGetValue(key,out v)&&v is bool&&(bool)v;}
@@ -112,7 +112,7 @@ public sealed class LauncherBackend {
     void RequireRoot(){Data.Require(!String.IsNullOrWhiteSpace(settings.root),"Сначала укажите папку игры в «Настройках».");}
     GameInstall Open(){RequireRoot();return GameInstall.Open(settings.root);}
     UpdateService Service(GameInstall game){
-        GitHubSource source=new GitHubSource();int index=0;string last=null;DateTime started=DateTime.UtcNow;long startBytes=0;
+        FeedSource source=new FeedSource();int index=0;string last=null;DateTime started=DateTime.UtcNow;long startBytes=0;
         int count=channel!=null&&channel.files!=null?channel.files.Length+1:0;
         source.Progress=(name,done,total)=>{
             if(name!=last){last=name;index++;started=DateTime.UtcNow;startBytes=done;}
@@ -155,7 +155,7 @@ public sealed class LauncherBackend {
         GameInstall game;try{game=GameInstall.Open(settings.root);}catch(Exception ex){s.mods="error";s.modsHint=ex.Message;return s;}
         s.valid=true;s.server=game.Server;s.buildId=game.BuildId;
         if(game.Server){s.mods="server";s.modsHint="Серверная установка: переключение модов нужно только клиенту.";return s;}
-        UpdateService service=new UpdateService(game,new GitHubSource(),null);
+        UpdateService service=new UpdateService(game,new FeedSource(),null);
         if(service.Parked){ParkedState p=null;try{p=service.ParkedInfo();}catch{}s.parkedVersion=p!=null?p.version:null;
             s.mods="off";s.modsHint="Игра без модов: можно на любые серверы. Файлы сохранены, вернуть — одной кнопкой.";s.toggleAllowed=true;s.toggleLabel="Вернуть моды";s.playLabel="Запустить SCUM";s.playEnabled=true;s.playMode="vanilla";return s;}
         InstalledState state=null;try{state=service.State();}catch{}
@@ -172,7 +172,7 @@ public sealed class LauncherBackend {
 
     // ---------- operations ----------
     async Task<object> Check(){
-        GameInstall game=Open();channel=await Task.Run(()=>new GitHubSource().Channel());UpdateService service=Service(game);service.Compatible(channel);
+        GameInstall game=Open();channel=await Task.Run(()=>new FeedSource().Channel());UpdateService service=Service(game);service.Compatible(channel);
         LocalSnapshot s=await Task.Run(()=>Snapshot());
         bool ready=s.mods=="on"&&s.installedVersion==channel.version;
         if(s.mods=="off")Status("Моды отключены","Последний релиз "+channel.version+". Для SCUM Lab нажмите «Вернуть моды» или «Синхронизировать».",2);
@@ -182,7 +182,7 @@ public sealed class LauncherBackend {
     }
 
     async Task<object> Sync(){
-        GameInstall game=Open();channel=await Task.Run(()=>new GitHubSource().Channel());UpdateService service=Service(game);service.Compatible(channel);
+        GameInstall game=Open();channel=await Task.Run(()=>new FeedSource().Channel());UpdateService service=Service(game);service.Compatible(channel);
         bool allow=settings.experimental;Data.Require(!channel.experimental||allow,"Релиз экспериментальный: включите «Разрешить экспериментальную сборку» в настройках.");
         await Task.Run(()=>service.Sync(channel,allow));
         Status("Сборка синхронизирована","Установлена версия "+channel.version+". Предыдущая сохранена для отката.",1);Log("Синхронизация завершена: "+channel.version);

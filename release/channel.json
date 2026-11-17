@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.0",
-  "tag": "v0.2.0",
-  "minLauncherVersion": "0.1.17",
+  "version": "0.2.1",
+  "tag": "v0.2.1",
+  "minLauncherVersion": "0.2.1",
   "clientSteamBuildId": "26621909",
   "serverSteamBuildId": "26621903",
   "experimental": true,
