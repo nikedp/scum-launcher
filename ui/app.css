@@ -35,6 +35,9 @@ button:disabled{cursor:default;opacity:.45}
 .brand-name{font:600 16px/1 var(--head);letter-spacing:3px;color:var(--ink)}
 .brand-sub{font-size:11px;letter-spacing:1px;color:var(--dim)}
 .drag-fill{flex:1;height:100%}
+.lu-banner{height:30px;margin-right:10px;padding:0 14px;background:var(--accent);color:var(--bg);border:0;font:700 12px/1 var(--mono);letter-spacing:1px;animation:lu-pulse 1.6s ease-in-out infinite}
+.lu-banner:hover:not(:disabled){background:var(--accent-hi);animation:none}
+@keyframes lu-pulse{0%,100%{box-shadow:0 0 0 0 rgba(232,163,61,.55)}50%{box-shadow:0 0 0 6px rgba(232,163,61,0)}}
 .window-buttons{display:flex;height:100%}
 .win{width:46px;height:100%;background:transparent;border:0;display:flex;align-items:center;justify-content:center;color:var(--soft)}
 .win svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.3}

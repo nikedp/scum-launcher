@@ -18,7 +18,7 @@ public sealed class Change { public string name,oldHash,newHash,temporary;public
 public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.1",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.2",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}

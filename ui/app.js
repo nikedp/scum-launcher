@@ -84,7 +84,7 @@
     const t = $('status-tone');
     t.className = 'tone' + (state.busy ? ' busy' : tone ? ' t' + tone : '');
   }
-  const opButtons = ['sync', 'check', 'rollback', 'toggle-mods', 'root-detect', 'root-deep', 'root-browse', 'root-save', 'client-clear', 'launcher-update'];
+  const opButtons = ['sync', 'check', 'rollback', 'toggle-mods', 'root-detect', 'root-deep', 'root-browse', 'root-save', 'client-clear', 'launcher-update', 'launcher-banner'];
   function setBusy(on, title) {
     state.busy = on;
     opButtons.forEach((id) => { $(id).disabled = on || ($(id).dataset.locked === '1'); });
@@ -219,7 +219,21 @@
     if (state.local && state.local.rootSet) return true;
     showPage('settings'); toast('Сначала укажите папку игры.'); return false;
   }
-  $('check').onclick = () => { if (needRoot()) op('update.check'); };
+  // ---------- новая версия лаунчера: проверка при старте, раз в 30 минут и по кнопке проверки ----------
+  async function checkLauncher() {
+    let r = null;
+    try { r = await call('launcher.check'); } catch (e) { return null; }
+    const newer = !!(r && r.newer);
+    $('launcher-banner').classList.toggle('hidden', !newer);
+    if (newer) {
+      $('launcher-banner-ver').textContent = r.latest;
+      $('launcher-update').textContent = 'ОБНОВИТЬ ДО ' + r.latest;
+      if (!state.launcherNoted) { state.launcherNoted = true; addLog(new Date().toTimeString().slice(0, 8), 'Доступен лаунчер ' + r.latest + ' (установлен v' + r.current + '). Кнопка «Обновить» вверху окна.'); }
+    }
+    return r;
+  }
+  $('launcher-banner').onclick = () => op('launcher.update');
+  $('check').onclick = async () => { const r = await checkLauncher(); if (r && r.newer) { setStatus('Сначала обновите лаунчер', 'Доступна версия ' + r.latest + '. Нажмите «Новый лаунчер · Обновить» вверху окна.', 2); return; } if (needRoot()) op('update.check'); };
   $('sync').onclick = () => { if (needRoot()) op('update.sync'); };
   $('rollback').onclick = async () => {
     if (!needRoot()) return;
@@ -265,8 +279,11 @@
     setInterval(refreshServer, 30000);
     let s = null;
     try { s = await call('local'); renderLocal(s); } catch (e) { /* покажем ниже */ }
+    const lr = await checkLauncher();
+    setInterval(checkLauncher, 30 * 60 * 1000);
     if (!s || !s.rootSet) { await detect(false); return; }
-    if (s.mods === 'on') setStatus('Сборка ' + s.installedVersion + ' установлена', 'Файлы проверены. Кнопка проверки рядом с «Играть» покажет, есть ли новая версия.', 1);
-    else setStatus('Проверьте обновления', s.modsHint || '', s.mods === 'modified' ? 3 : 2);
+    if (lr && lr.newer) { setStatus('Доступен новый лаунчер ' + lr.latest, 'Нажмите «Новый лаунчер · Обновить» вверху окна. После обновления сборка проверится сама.', 2); return; }
+    if (s.mods === 'off') { setStatus('Моды отключены', s.modsHint || '', 2); return; }
+    op('update.check');   // сборка модов: проверяем сами при каждом запуске
   })();
 })();
