@@ -222,7 +222,7 @@ public sealed class LauncherBackend {
         Process.Start(new ProcessStartInfo("explorer.exe","\""+path+"\""){UseShellExecute=true});return null;
     }
 
-    /// Silent check for a newer launcher on GitHub (no busy state): {current, latest, newer}; errors -> newer=false, error text.
+    /// Silent check for a newer launcher on our feed (no busy state): {current, latest, newer}; errors -> newer=false, error text.
     async Task<object> LauncherCheck(){
         try{LauncherRelease release=await Task.Run(()=>new SelfUpdater().Latest());
             return new Dictionary<string,object>{{"current",Data.Version},{"latest",release.tag_name},{"newer",SelfUpdater.IsNewer(release.tag_name,Data.Version)}};}

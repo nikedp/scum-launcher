@@ -18,7 +18,7 @@ public sealed class Change { public string name,oldHash,newHash,temporary;public
 public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.3",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.4",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
@@ -39,11 +39,14 @@ public static class Data {
 }
 public interface IReleaseSource { Channel Channel();void Download(AssetSpec asset,string tag,string destination); }
 /// Mod payloads (PAK, registry delta) come from our own host: <Feed>channel.json and <Feed>files/<tag>/<name>.
-/// GitHub keeps only the launcher itself (self-update).
+/// The launcher itself updates from <Feed>launcher/ (SelfUpdater).
 public sealed class FeedSource:IReleaseSource {
     readonly string Base;
     /// LAN mirror from the last validated manifest (process-wide: the manifest and the downloads use different FeedSource objects).
     static string lan;static bool lanDead;
+    /// LAN mirror base (".../scumlab/") while it works; null otherwise. Used by the launcher self-update too.
+    internal static string LanMirror{get{return lanDead?null:lan;}}
+    internal static void LanFailed(){lanDead=true;}
     /// Short status lines for the launcher log (optional).
     public Action<string> Note;
     public FeedSource():this(Data.Feed){}

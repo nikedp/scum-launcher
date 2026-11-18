@@ -262,7 +262,6 @@
   };
   $('client-backups').onclick = () => act('client.backups');
   $('launcher-update').onclick = () => op('launcher.update');
-  $('github').onclick = () => act('open', { url: 'https://github.com/' + state.repo });
   $('srv-refresh').onclick = refreshServer;
   $('srv-copy').onclick = async () => { const a = await act('server.copy'); if (a) toast('Скопировано: ' + a, true); };
   $('srv-save').onclick = async () => { const a = await act('server.set', { address: $('srv-input').value }); if (a) { toast('Адрес сохранён', true); refreshServer(); } };
