@@ -120,6 +120,7 @@ public sealed class LauncherBackend {
             double seconds=(DateTime.UtcNow-started).TotalSeconds;double speed=seconds>0.5?(done-startBytes)/seconds:0;
             Event("progress",new Dictionary<string,object>{{"file",name},{"index",index},{"count",count},{"done",done},{"total",total},{"speed",(long)speed}});
         };
+        source.Note=Log;
         return new UpdateService(game,source,Log);
     }
 

@@ -10,7 +10,7 @@ using System.Web.Script.Serialization;
 namespace SCUMLab {
 public sealed class AssetSpec { public string name,sha256;public long bytes; }
 public sealed class Channel {
-    public int schemaVersion;public string version,tag,minLauncherVersion,clientSteamBuildId,serverSteamBuildId,serverAddress;
+    public int schemaVersion;public string version,tag,minLauncherVersion,clientSteamBuildId,serverSteamBuildId,serverAddress,lanFeed;
     public bool experimental;public AssetSpec[] files;public AssetSpec registryDelta;
 }
 public sealed class InstalledState { public bool subfolder;public string version,steamBuildId;public Dictionary<string,string> files=new Dictionary<string,string>(); }
@@ -18,19 +18,22 @@ public sealed class Change { public string name,oldHash,newHash,temporary;public
 public sealed class ParkedState { public string version;public Dictionary<string,string> files=new Dictionary<string,string>(); }
 public sealed class Journal { public bool subfolder;public string status,version;public Change[] changes;public InstalledState oldState; }
 public static class Data {
-    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.2",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
+    public const string Repo="nikedp/scum-launcher",Feed="https://home.hiltor.net/scumlab/",Version="0.2.3",RegistryName="pakchunk999-SCUMLabRegistry_P.pak";
     public static JavaScriptSerializer Json(){return new JavaScriptSerializer{MaxJsonLength=16*1024*1024,RecursionLimit=64};}
     public static T Read<T>(string file){return Json().Deserialize<T>(File.ReadAllText(file,Encoding.UTF8));}
     public static void Write(string file,object value){AtomicText(file,Json().Serialize(value));}
     public static void AtomicText(string file,string value){string temp=file+".tmp-"+Guid.NewGuid().ToString("N");File.WriteAllText(temp,value,new UTF8Encoding(false));if(File.Exists(file))File.Replace(temp,file,null);else File.Move(temp,file);}
     public static string Hash(string file){using(FileStream f=File.OpenRead(file))using(SHA256 h=SHA256.Create())return BitConverter.ToString(h.ComputeHash(f)).Replace("-","").ToLowerInvariant();}
     public static void Require(bool ok,string message){if(!ok)throw new InvalidDataException(message);}
+    /// Optional LAN mirror of the feed (plain HTTP, private IPv4 only): payload integrity comes from the HTTPS manifest hashes.
+    public static bool LanFeed(string u){Match m=Regex.Match(u??"","^http://((?:10|127|192\\.168|172\\.(?:1[6-9]|2[0-9]|3[01]))(?:\\.[0-9]{1,3}){1,3})(?::[0-9]{1,5})?/(?:[A-Za-z0-9_-]+/)*$");return m.Success&&m.Groups[1].Value.Split('.').Length==4;}
     public static bool Owned(string name){return name!=null&&Regex.IsMatch(name,"^pakchunk[0-9]+-SCUMLab[A-Za-z0-9_-]*_P\\.pak$");}
     public static void Asset(AssetSpec a,bool pak){Require(a!=null&&a.name!=null&&Regex.IsMatch(a.sha256??"","^[a-fA-F0-9]{64}$")&&a.bytes>0&&a.bytes<=256*1024*1024,"Некорректный файл в манифесте.");Require(pak?Owned(a.name)&&a.name!=RegistryName:Regex.IsMatch(a.name,"^[A-Za-z0-9_-]+\\.json$"),"Недопустимое имя файла.");}
     public static void Validate(Channel c){
         Require(c!=null&&c.schemaVersion==1&&Regex.IsMatch(c.version??"","^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[A-Za-z0-9.-]+)?$")&&c.tag=="v"+c.version,"Формат манифеста не поддерживается.");
         System.Version minimum;Require(System.Version.TryParse(c.minLauncherVersion,out minimum)&&new System.Version(Version)>=minimum,"Нужна новая версия лаунчера.");
         Require(Regex.IsMatch(c.clientSteamBuildId??"","^[0-9]+$")&&Regex.IsMatch(c.serverSteamBuildId??"","^[0-9]+$"),"В манифесте не указана версия SCUM.");
+        Require(c.lanFeed==null||LanFeed(c.lanFeed),"Некорректный адрес локального зеркала.");
         Require(c.files!=null&&c.files.Length>0&&c.files.Length<=32,"Некорректный список файлов.");HashSet<string> names=new HashSet<string>(StringComparer.OrdinalIgnoreCase);foreach(AssetSpec a in c.files){Asset(a,true);Require(names.Add(a.name),"Повтор имени файла.");}Asset(c.registryDelta,false);
     }
 }
@@ -39,16 +42,27 @@ public interface IReleaseSource { Channel Channel();void Download(AssetSpec asse
 /// GitHub keeps only the launcher itself (self-update).
 public sealed class FeedSource:IReleaseSource {
     readonly string Base;
+    /// LAN mirror from the last validated manifest (process-wide: the manifest and the downloads use different FeedSource objects).
+    static string lan;static bool lanDead;
+    /// Short status lines for the launcher log (optional).
+    public Action<string> Note;
     public FeedSource():this(Data.Feed){}
     internal FeedSource(string feed){Data.Require(feed!=null&&feed.StartsWith("https://",StringComparison.Ordinal)&&feed.EndsWith("/",StringComparison.Ordinal),"Некорректный адрес сервера обновлений.");Base=feed;}
     sealed class TimedClient:WebClient { protected override WebRequest GetWebRequest(Uri address){WebRequest r=base.GetWebRequest(address);r.Timeout=60000;HttpWebRequest h=r as HttpWebRequest;if(h!=null){h.ReadWriteTimeout=60000;h.CachePolicy=new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);}return r;} }
     static WebClient Client(){ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;WebClient c=new TimedClient();c.Headers[HttpRequestHeader.UserAgent]="SCUMLabLauncher/"+Data.Version;return c;}
-    public Channel Channel(){using(WebClient c=Client()){byte[] b=c.DownloadData(Base+"channel.json?t="+DateTime.UtcNow.Ticks);Data.Require(b.Length<1024*1024,"Манифест слишком большой.");Channel value=Data.Json().Deserialize<Channel>(Encoding.UTF8.GetString(b).TrimStart('\ufeff'));Data.Validate(value);return value;}}
+    public Channel Channel(){using(WebClient c=Client()){byte[] b=c.DownloadData(Base+"channel.json?t="+DateTime.UtcNow.Ticks);Data.Require(b.Length<1024*1024,"Манифест слишком большой.");Channel value=Data.Json().Deserialize<Channel>(Encoding.UTF8.GetString(b).TrimStart('\ufeff'));Data.Validate(value);if(value.lanFeed!=lan){lan=value.lanFeed;lanDead=false;}return value;}}
     /// Progress of the current download: asset name, bytes received, total bytes. Called at most ~5 times per second.
     public Action<string,long,long> Progress;
     internal string FileUrl(AssetSpec a,string tag){Data.Require(Regex.IsMatch(tag??"","^v[0-9A-Za-z._-]+$"),"Некорректный тег.");return Base+"files/"+Uri.EscapeDataString(tag)+"/"+Uri.EscapeDataString(a.name);}
     public void Download(AssetSpec a,string tag,string destination){
-        ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;HttpWebRequest r=(HttpWebRequest)WebRequest.Create(FileUrl(a,tag));r.Timeout=60000;r.ReadWriteTimeout=60000;r.UserAgent="SCUMLabLauncher/"+Data.Version;r.AllowAutoRedirect=true;
+        string url=FileUrl(a,tag),mirror=lan;   // FileUrl validates the tag before any URL is built
+        if(mirror!=null&&!lanDead){
+            try{Fetch(mirror+url.Substring(Base.Length),a,destination,3000,15000);if(Note!=null)Note("Загружено из локальной сети: "+a.name);return;}
+            catch(Exception ex){lanDead=true;if(Note!=null)Note("Локальная сеть недоступна ("+ex.Message+"), качаем через интернет.");}
+        }
+        Fetch(url,a,destination,60000,60000);}
+    void Fetch(string url,AssetSpec a,string destination,int connectTimeout,int readTimeout){
+        ServicePointManager.SecurityProtocol=SecurityProtocolType.Tls12;HttpWebRequest r=(HttpWebRequest)WebRequest.Create(url);r.Timeout=connectTimeout;r.ReadWriteTimeout=readTimeout;r.UserAgent="SCUMLabLauncher/"+Data.Version;r.AllowAutoRedirect=true;
         Action<string,long,long> report=Progress;long done=0;DateTime next=DateTime.MinValue;
         using(WebResponse response=r.GetResponse())using(Stream input=response.GetResponseStream())using(FileStream output=new FileStream(destination,FileMode.Create,FileAccess.Write,FileShare.None,1<<16)){
             byte[] buffer=new byte[1<<16];int n;if(report!=null)report(a.name,0,a.bytes);
